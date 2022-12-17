@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104.716" height="103.082" viewBox="0 0 104.716 103.082">
+  <g id="webdesign" transform="translate(-587.303 -228.763) rotate(-20)">
+    <g id="Group_5" data-name="Group 5" transform="translate(464 454.312)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="82.429" height="67.713" fill="#dbdbdb"/>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(464 442.329)">
+      <path id="Path_4" data-name="Path 4" d="M546.429,445.27a2.95,2.95,0,0,0-2.941-2.941H466.943A2.952,2.952,0,0,0,464,445.27v8.838h82.429Z" transform="translate(-464 -442.329)" fill="#ededed"/>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(468.894 458.165)">
+      <path id="Path_5" data-name="Path 5" d="M466.969,451.935v60.008H539.61V451.935Z" transform="translate(-466.969 -451.935)" fill="#fff"/>
+      <g id="Group_7" data-name="Group 7" transform="translate(4.738 4.736)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="63.163" height="15.163" fill="#43beca"/>
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="30.318" height="32.849" transform="translate(0 17.687)" fill="#012857"/>
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="30.315" height="32.849" transform="translate(32.848 17.687)" fill="#f6bb42"/>
+      </g>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(479.373 445.911)">
+      <path id="Path_6" data-name="Path 6" d="M535.487,449.24H473.325V444.5h62.162v4.738Z" transform="translate(-473.325 -444.502)" fill="#fafafa"/>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(468.894 445.911)">
+      <path id="Path_7" data-name="Path 7" d="M473.7,449.24h-6.733V444.5H473.7v4.738Z" transform="translate(-466.969 -444.502)" fill="#ccc"/>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(482.819 447.647)">
+      <path id="Path_8" data-name="Path 8" d="M514.894,446.815H475.415v-1.26h39.479v1.26Z" transform="translate(-475.415 -445.555)" fill="#535353"/>
+    </g>
+  </g>
+</svg>
