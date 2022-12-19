@@ -10,10 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-.title {
-  font-family: Anton;
-}
-
 .title-two {
   font-family: Anton;
   color: #012857;
@@ -26,7 +22,6 @@ body {
 }
 
 .title-line {
-  font-family: Anton;
   color: #ffffff;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;

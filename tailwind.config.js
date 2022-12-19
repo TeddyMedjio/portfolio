@@ -3,7 +3,7 @@ module.exports = {
   content: ["./pages/**/*.js", "./components/**/*.js"],
   theme: {
     fontFamily: {
-      title: ["Anton", "poppins"],
+      anton: ["Anton", "sans-serif"],
     },
     screens: {
       sm: "480px",

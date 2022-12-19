@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="bg-hero-pattern bg-cover bg-no-repeat h-screen">
       <div className="bg-gradient-to-b from-[#F9FAFC] ">
-        <div className="flex flex-col items-center justify-center pt-[100px]">
+        <div className="flex flex-col items-center justify-center pt-[50px] md:pt-[200px]">
           <p className="text-xl text-[#012857] text-center">
             👋🏽, Je {"m'appelle "}
             <span className="text-[#F6BB42]">N. Jean claude</span> , je suis
@@ -21,31 +21,30 @@ const Header = () => {
             {/* elements animes */}
             <Image
               src={webdesign}
-              className="webdesign hidden md:block absolute lg:top-[200px] left-0 md:h-20 lg:h-24 "
+              className="webdesign hidden md:block absolute lg:top-[200px] w-auto left-0 md:h-20 lg:h-24 "
               alt="image webdesign"
             />
             <Image
               src={pentool}
-              className="pen-tool absolute hidden md:block md:top-[130px] right-10 md:right-20 z-[99] md:h-20 lg:h-32 "
+              className="pen-tool absolute hidden md:block w-auto md:top-[130px] right-10 md:right-20 z-[99] md:h-20 lg:h-32 "
               alt="image pen-tool"
             />
             <div className="text-center">
-              <h1 className="title font-title text-[60px] md:text-[108px] lg:text-[165px] text-[#012857] cursor-pointer">
+              <h1 className="title font-anton text-[60px] md:text-[108px] lg:text-[165px] text-[#012857] cursor-pointer">
                 Webdesigner
               </h1>
-              <h1 className="hidden md:block absolute top-[0px] title-line text-[60px] md:text-[108px] lg:text-[165px] cursor-default z-50">
+              <h1 className="hidden md:block absolute top-[0px] title-line font-anton text-[60px] md:text-[108px] lg:text-[165px] cursor-default z-50">
                 Webdesigner
               </h1>
             </div>
             {/* image avatar */}
             <Image
               src={profil}
-              data-value="-2"
-              className="absolute top-[150px] md:top-[60px] lg:top-[35px] w-[200px] md:w-[280px] lg:w-[350px] z-[0]"
+              className="absolute top-[150px] md:top-[60px] lg:top-[35px] w-[200px] h-auto md:w-[280px] lg:w-[350px] z-[0]"
               alt="image avatar"
             />
             <div className=" bloc -mt-12 ">
-              <h1 className=" title-two text-[60px] md:text-[108px] lg:text-[158px] cursor-default mt-10 md:mt-0">
+              <h1 className=" title-two text-[60px] font-anton md:text-[108px] lg:text-[158px] cursor-default mt-10 md:mt-0">
                 & front-end dev
               </h1>
             </div>
