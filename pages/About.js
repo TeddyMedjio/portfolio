@@ -6,8 +6,8 @@ const Apropos = () => {
   return (
     <div>
       <Head>
-        <title>A propos</title>
-        <meta name="A propos" content="A propos" />
+        <title>About</title>
+        <meta name="A propos" content="About" />
       </Head>
 
       <h1>Apropos</h1>

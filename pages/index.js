@@ -8,7 +8,7 @@ export default function Home() {
         <title>
           N. Jean Claude - Freelance webdesigner & Graphique designer
         </title>
-        <meta name="keywords" content="Graphique design, web developpement" />
+        <meta name="keywords" content="Graphic-design, web development" />
       </Head>
       <Header />
     </div>

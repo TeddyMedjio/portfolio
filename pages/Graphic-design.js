@@ -4,8 +4,8 @@ const Design = () => {
   return (
     <div className="">
       <Head>
-        <title>Design</title>
-        <meta name="A propos" content="Design graphique" />
+        <title>Graphic-design</title>
+        <meta name="keywords" content="Design-graphic" />
       </Head>
       <h1>Design</h1>
     </div>

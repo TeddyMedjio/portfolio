@@ -7,7 +7,7 @@ const Website = () => {
     <div>
       <Head>
         <title>Website</title>
-        <meta name="A propos" content="Website" />
+        <meta name="keywords" content="Website" />
       </Head>
       <h1>Website</h1>
     </div>
