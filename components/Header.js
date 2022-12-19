@@ -9,24 +9,6 @@ import { useRouter } from "next/router";
 const Header = () => {
   const router = useRouter();
 
-  // (function () {
-  //   document.addEventListener("mousemove", parallax);
-  //   const elemt = document.querySelector(".avatar");
-  //   function parallax(e) {
-  //     var w = window.innerWidth / 2;
-  //     var h = window.innerHeight / 2;
-  //     var mouseX = e.clientX;
-  //     var mouseY = e.clientY;
-  //     let depht1 = `${50 - (mouseX - w) * 0.01}% ${50 - (mouseY - h) * 0.01}%`;
-  //     let depht2 = `${50 - (mouseX - w) * 0.02}% ${50 - (mouseY - h) * 0.02}%`;
-
-  //     let depht3 = `${50 - (mouseX - w) * 0.06}% ${50 - (mouseY - h) * 0.06}%`;
-  //     let x = `${depht3},${depht2},${depht1}`;
-
-  //     elemt.style.backgroundPosition = x;
-  //   }
-  // })();
-
   return (
     <div className="bg-hero-pattern bg-cover bg-no-repeat h-screen">
       <div className="bg-gradient-to-b from-[#F9FAFC] ">
@@ -59,7 +41,7 @@ const Header = () => {
             <Image
               src={profil}
               data-value="-2"
-              className=" avatar absolute top-[150px] md:top-[60px] lg:top-[35px] w-[200px] md:w-[280px] lg:w-[350px] z-[0]"
+              className="absolute top-[150px] md:top-[60px] lg:top-[35px] w-[200px] md:w-[280px] lg:w-[350px] z-[0]"
               alt="image avatar"
             />
             <div className=" bloc -mt-12 ">

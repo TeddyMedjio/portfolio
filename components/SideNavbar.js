@@ -54,12 +54,17 @@ function MobileNav({ open, setOpen }) {
             Démarrer un projet
           </a>
           <div className="flex flex-row items-center justify-center mt-14 space-x-5">
-            <a href="https://www.behance.net/jeanclmedjio" target="_blank">
+            <a
+              href="https://www.behance.net/jeanclmedjio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image src={behance} className="w-" alt="logo behance" />
             </a>
             <a
               href="https://www.linkedin.com/in/jean-claude-nganmedjio-603995a1/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <Image src={linkedin} className="w-7" alt="logo behance" />
             </a>
