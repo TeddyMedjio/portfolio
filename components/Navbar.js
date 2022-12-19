@@ -10,8 +10,9 @@ export default function Navbar({ children }) {
   const [open, setOpen] = useState(false);
   const router = useRouter();
   return (
-    <nav className="bg-[#F9FAFC] z-[500]  ">
-      <div className=" absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container ">
+    <nav className="bg-[#F9FAFC] z-[500] ">
+      <MobileNav open={open} setOpen={setOpen} />
+      <div className="absolute  left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container  ">
         <Link href="/">
           <Image src={Logo} className="h-auto" alt="logo NJ" />
         </Link>
@@ -65,7 +66,6 @@ export default function Navbar({ children }) {
           </div>
         </div>
 
-        <MobileNav open={open} setOpen={setOpen} />
         {/* mobile menu */}
         <div className=" lg:hidden w-full flex justify-end items-center ">
           <div
@@ -104,7 +104,7 @@ function MobileNav({ open, setOpen }) {
   const router = useRouter();
   return (
     <div
-      className={`z-[500] lg:hidden absolute top-36 left-0 h-screen w-screen bg-white transform ${
+      className={`z-[500] lg:hidden absolute top-36 left-0 h-screen w-full bg-white transform ${
         open ? "-translate-x-0 " : "hidden"
       } transition-transform duration-700 ease-in-out`}
     >
