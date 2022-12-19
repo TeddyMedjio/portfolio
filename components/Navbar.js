@@ -61,7 +61,7 @@ export default function Navbar({ children }) {
             href="mailto:hello@medjio.fr"
             className="bg-gradient-to-r from-[#012857] via-[#012857] to-[#43BECA] text-white transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
           >
-            hello@medjio.fr
+            hello@medjio.me
           </a>
         </div>
 
