@@ -14,7 +14,7 @@ const Header = () => {
       <div className="bg-gradient-to-b from-[#F9FAFC] ">
         <div className="flex flex-col items-center justify-center pt-[100px]">
           <p className="text-xl text-[#012857] text-center">
-            👋🏽, Je m'appelle{" "}
+            👋🏽, Je {"m'appelle "}
             <span className="text-[#F6BB42]">N. Jean claude</span> , je suis
           </p>
           <div className="relative flex flex-col items-center justify-center">
@@ -57,14 +57,14 @@ const Header = () => {
               href="/Design"
               className={`router.pathname == "/Design" ? "font-bold" : "" p-4 bg-[#012857] text-white rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl `}
             >
-              Vous avez besoin d'un designer
+              Vous avez besoin {"d'un"} designer
             </Link>
             <Link
               href="/Website"
               className={`router.pathname == "/Website" ? "font-bold" : "" bg-white p-4 border-[#012857] border-[1px] rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl`}
               $
             >
-              Vous avez besoin d'un front-end dev
+              Vous avez besoin {"d'un"} front-end dev
             </Link>
           </div>
         </div>
