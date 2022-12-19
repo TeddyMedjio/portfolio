@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="bg-hero-pattern bg-cover bg-no-repeat h-screen">
       <div className="bg-gradient-to-b from-[#F9FAFC] ">
-        <div className="flex flex-col items-center justify-center pt-[200px] md:pt-[200px]">
+        <div className="flex flex-col items-center justify-center pt-[180px] md:pt-[200px]">
           <p className="text-xl text-[#012857] text-center">
             👋🏽, Je {"m'appelle "}
             <span className="text-[#F6BB42]">N. Jean claude</span> , je suis
