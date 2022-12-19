@@ -1,4 +1,4 @@
-import Logo from "../public/img/logo.svg";
+import Logo from "../public/img/Logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
