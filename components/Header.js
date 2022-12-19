@@ -40,7 +40,7 @@ const Header = () => {
             {/* image avatar */}
             <Image
               src={profil}
-              className="absolute top-[150px] md:top-[60px] lg:top-[35px] w-[200px] h-auto md:w-[280px] lg:w-[350px] z-[0]"
+              className="absolute top-[130px] md:top-[60px] lg:top-[45px] w-[200px] h-auto md:w-[280px] lg:w-[350px] z-[0]"
               alt="image avatar"
             />
             <div className=" bloc -mt-12 ">
