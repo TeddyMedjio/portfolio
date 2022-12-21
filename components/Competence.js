@@ -1,11 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import xd from "../public/img/adobe-xd.png";
-import figma from "../public/img/figma.png";
-import html from "../public/img/html.png";
-import react from "../public/img/react.png";
-import nextjs from "../public/img/Nextjs.png";
-import graphisme from "../public/img/graphisme.png";
+import xd from "../public/img/adobe-xd.svg";
+import figma from "../public/img/figma.svg";
+import html from "../public/img/html.svg";
+import css from "../public/img/css.svg";
+import javascript from "../public/img/javascript.svg";
+import react from "../public/img/react.svg";
+import nextjs from "../public/img/nextjs.svg";
+import photoshop from "../public/img/photoshop.svg";
+import illustrator from "../public/img/illustrator.svg";
+import indesign from "../public/img/indesign.svg";
+import lightroom from "../public/img/lightroom.svg";
 
 const Competence = () => {
   return (
@@ -25,11 +30,11 @@ const Competence = () => {
 
         <div className="flex flex-col space-y-5 lg:space-y-0 lg:space-x-5 lg:flex-row justify-center items-center md:items-stretch my-20 flex-wrap md:w-[60%] lg:w-full mx-auto ">
           <div className="flex-1 py-10 px-6 bg-white border-[1px] border-[#012857] rounded-lg hover:shadow-xl cursor-pointer transition duration-500 ease-in-out ">
-            <div className="flex items-center mb-10">
-              <Image src={xd} className="mr-5" alt="logo adobe xd" />
-              <Image src={figma} alt="logo figma" />
+            <div className="flex mb-10">
+              <Image src={xd} className="mr-5 w-10 h-10" alt="logo adobe xd" />
+              <Image src={figma} className="w-10 h-10" alt="logo figma" />
             </div>
-            <h3 className="text-4xl font-anton text-[#012857] mb-5 leading-[50px]">
+            <h3 className="text-4xl font-anton text-[#012857] mb-5">
               Concevoir le design de votre produit
             </h3>
             <p className="text-[#475769] text-lg leading-8">
@@ -39,13 +44,19 @@ const Competence = () => {
             </p>
           </div>
 
-          <div className="flex-1 py-10 px-6 bg-white border-[1px] border-[#012857] rounded-lg hover:shadow-xl cursor-pointer transition-all duration-500 ease-in-out">
-            <div className="flex items-center mb-10">
-              <Image src={html} className="mr-5" alt="logo html" />
-              <Image src={react} className="mr-5" alt="logo react" />
-              <Image src={nextjs} alt="logo nextjs" />
+          <div className="flex-1 py-5 px-6 bg-white border-[1px] border-[#012857] rounded-lg hover:shadow-xl cursor-pointer transition-all duration-500 ease-in-out">
+            <div className="flex items-center mb-5">
+              <Image src={html} className=" w-12 h-12" alt="logo html" />
+              <Image src={css} className="w-12 h-12" alt="logo css" />
+              <Image
+                src={javascript}
+                className="w-10 h-10 mr-2"
+                alt="logo javascript"
+              />
+              <Image src={react} className="w-12 h-12 mr-2" alt="logo react" />
+              <Image src={nextjs} className="w-20" alt="logo nextjs" />
             </div>
-            <h3 className="text-4xl font-anton text-[#012857] mb-5 leading-[50px]">
+            <h3 className="text-4xl font-anton text-[#012857] mb-5 ">
               Construire un site sur-mesure et responsive
             </h3>
             <p className="text-[#475769] text-lg leading-8">
@@ -56,10 +67,25 @@ const Competence = () => {
           </div>
 
           <div className=" flex-1 py-10 px-6 bg-white border-[1px] border-[#012857] rounded-lg hover:shadow-xl cursor-pointer transition-all duration-500 ease-in-out ">
-            <div className="flex items-center space-x-5 mb-10">
-              <Image src={graphisme} alt="logo adobe" />
+            <div className="flex items-center space-x-2 mb-10">
+              <Image
+                src={photoshop}
+                className="w-[40px] h-[40px]"
+                alt="logo photoshop"
+              />
+              <Image
+                src={illustrator}
+                className="w-10 h-10"
+                alt="logo illustrator"
+              />
+              <Image src={indesign} className="w-10 h-10" alt="logo indesign" />
+              <Image
+                src={lightroom}
+                className="w-10 h-10"
+                alt="logo lightroom"
+              />
             </div>
-            <h3 className="text-4xl font-anton text-[#012857] mb-5 leading-[50px]">
+            <h3 className="text-4xl font-anton text-[#012857] mb-5 ">
               Réaliser votre prochaine affiche
             </h3>
             <p className="text-[#475769] text-lg leading-8">
