@@ -1,0 +1,112 @@
+// Import Swiper React components
+import "swiper/css/autoplay";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Autoplay, Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+import junior from "../public/img/junior.jpg";
+import camille from "../public/img/camille.jpg";
+import joel from "../public/img/joel.jpg";
+import mbg from "../public/img/mbg.jpg";
+import clement from "../public/img/clement.jpg";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+// import required modules
+import { EffectCards } from "swiper";
+
+export default function App() {
+  return (
+    <>
+      <Swiper
+        effect={"cards"}
+        grabCursor={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[EffectCards]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          {" "}
+          <div className="absolute p-5 bottom-0 bg-gradient-to-t from-gray-800">
+            <p className="text-sm font-normal">
+              M. Jean Claude brille par sa capacité à comprendre immédiatement
+              le brief et à le remettre aussitôt en perspective de façon
+              pertinente.
+            </p>
+            <p className="text-sm font-normal mt-5">
+              <span className="font-bold">M. Clément Tchouante</span> - PDG
+              Challenge International Magazine
+            </p>
+          </div>
+          <Image src={clement} />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          {" "}
+          <div className="absolute p-5 bottom-0 bg-gradient-to-t from-gray-800">
+            <p className="text-sm font-normal">
+              La créativité de Jean Claude n’a pas de limites : malgré nos
+              contraintes et exigences, il réussit toujours à s’adapter pour
+              dépasser nos attentes!
+            </p>
+            <p className="text-sm font-normal mt-5">
+              <span className="font-bold">M. Camille</span> - PDG Manufacture
+              ORACLE Sarl
+            </p>
+          </div>
+          <Image src={camille} />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          {" "}
+          <div className="absolute p-5 bottom-0 bg-gradient-to-t from-gray-800">
+            <p className="text-sm font-normal">
+              Travail excellent, créatif et réactif. Impossible d'imaginer
+              développer mes projets de création sans lui.
+            </p>
+            <p className="text-sm font-normal mt-5">
+              <span className="font-bold">Joel Temgoua</span> - PDG Learnlife
+              Entertainment
+            </p>
+          </div>
+          <Image src={joel} />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="absolute p-5 bottom-0 bg-gradient-to-t from-gray-800">
+            <p className="text-sm font-normal">
+              Une esthétique poussée, une gentille dingue et une vitesse de
+              production folle: je recommande vivement N. Jean Claude!
+            </p>
+            <p className="text-sm font-normal mt-5">
+              <span className="font-bold">Fabian Junior</span> - PDG Scrafce
+              entertainment
+            </p>
+          </div>
+          <Image src={junior} />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          {" "}
+          <div className="absolute p-5 bottom-0 bg-gradient-to-t from-gray-800">
+            <p className="text-sm font-normal">
+              JC a su nous accompagner dans la réflexion et l'idéation en amont
+              et ces propositions/réalisations sont toujours pertinentes et
+              argumentées.
+            </p>
+            <p className="text-sm font-normal mt-5">
+              <span className="font-bold">M. Batchami</span> - Responsable
+              Marketing PETROLEX
+            </p>
+          </div>
+          <Image src={mbg} />
+        </SwiperSlide>
+      </Swiper>
+    </>
+  );
+}
