@@ -27,8 +27,8 @@ const Designhead = () => {
           </a>
           {/* animation logos */}
           <div className="w-[380px] md:w-[500px] overflow-x-auto mt-10">
-            <div class="slider mix-blend-multiply">
-              <div class="slide-track">
+            <div className="slider mix-blend-multiply">
+              <div className="slide-track">
                 <Image src={logos} className="slide" />
                 <Image src={logos} className="slide" />
 

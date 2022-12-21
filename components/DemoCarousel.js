@@ -43,7 +43,7 @@ export default function App() {
               Challenge International Magazine
             </p>
           </div>
-          <Image src={clement} />
+          <Image src={clement} alt="photo" />
         </SwiperSlide>
 
         <SwiperSlide>
@@ -59,7 +59,7 @@ export default function App() {
               ORACLE Sarl
             </p>
           </div>
-          <Image src={camille} />
+          <Image src={camille} alt="photo" />
         </SwiperSlide>
 
         <SwiperSlide>
@@ -74,7 +74,7 @@ export default function App() {
               Entertainment
             </p>
           </div>
-          <Image src={joel} />
+          <Image src={joel} alt="photo" />
         </SwiperSlide>
 
         <SwiperSlide>
@@ -88,7 +88,7 @@ export default function App() {
               entertainment
             </p>
           </div>
-          <Image src={junior} />
+          <Image src={junior} alt="photo" />
         </SwiperSlide>
 
         <SwiperSlide>
@@ -104,7 +104,7 @@ export default function App() {
               Marketing PETROLEX
             </p>
           </div>
-          <Image src={mbg} />
+          <Image src={mbg} alt="photo" />
         </SwiperSlide>
       </Swiper>
     </>
