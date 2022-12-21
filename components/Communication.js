@@ -16,14 +16,14 @@ const Communication = () => {
               <Image
                 src={dj}
                 className="hover:scale-95 transition-all duration-500"
-                alt="logos entreprises"
+                alt="flyers"
               />
             </a>
             <a href="#">
               <Image
                 src={koba}
                 className="hover:scale-95 transition-all duration-500"
-                alt="logos entreprises"
+                alt="flyers"
               />
             </a>
           </div>
@@ -32,21 +32,21 @@ const Communication = () => {
               <Image
                 src={dadju}
                 className="hover:scale-95 transition-all duration-500"
-                alt="logos entreprises"
+                alt="flyers"
               />
             </a>
             <a href="#">
               <Image
                 src={gwen}
                 className="hover:scale-95 transition-all duration-500"
-                alt="logos entreprises"
+                alt="flyers"
               />
             </a>
             <a href="#">
               <Image
                 src={kizz}
                 className="hover:scale-95 transition-all duration-500"
-                alt="logos entreprises"
+                alt="flyers"
               />
             </a>
           </div>
