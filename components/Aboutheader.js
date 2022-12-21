@@ -70,7 +70,7 @@ const Aboutheader = () => {
               <Image
                 src={linkedin}
                 className="w-7 hidden lg:block"
-                alt="logo behance"
+                alt="logo linkedin"
               />
             </a>
           </div>

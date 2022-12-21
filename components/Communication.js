@@ -15,7 +15,7 @@ const Communication = () => {
             <a href="#">
               <Image
                 src={dj}
-                className="hover:scale-95 transition-all duration-500"
+                className="hover:scale-95 transition-all duration-500 "
                 alt="flyers"
               />
             </a>

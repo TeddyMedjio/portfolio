@@ -1,8 +1,7 @@
 // Import Swiper React components
 import "swiper/css/autoplay";
-import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Autoplay, Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import junior from "../public/img/junior.jpg";
 import camille from "../public/img/camille.jpg";
@@ -23,10 +22,6 @@ export default function App() {
       <Swiper
         effect={"cards"}
         grabCursor={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
         modules={[EffectCards]}
         className="mySwiper"
       >
