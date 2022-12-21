@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import dj from "../public/img/dj.jpg";
-import koba from "../public/img/koba.jpg";
-import dadju from "../public/img/dadju.jpg";
-import gwen from "../public/img/gwen.jpg";
-import magasine from "../public/img/magasine.jpg";
+import dj from "../public/img/dj.png";
+import koba from "../public/img/koba.png";
+import dadju from "../public/img/dadju.png";
+import gwen from "../public/img/gwen.png";
+import magasine from "../public/img/magasine.png";
 
 const Communication = () => {
   return (
