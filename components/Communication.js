@@ -4,7 +4,7 @@ import dj from "../public/img/dj.jpg";
 import koba from "../public/img/koba.jpg";
 import dadju from "../public/img/dadju.jpg";
 import gwen from "../public/img/gwen.jpg";
-import kizz from "../public/img/kizz.jpg";
+import kiz from "../public/img/kiz.jpg";
 
 const Communication = () => {
   return (
@@ -44,7 +44,7 @@ const Communication = () => {
             </a>
             <a href="#">
               <Image
-                src={kizz}
+                src={kiz}
                 className="hover:scale-95 transition-all duration-500"
                 alt="flyers"
               />
