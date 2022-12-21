@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68.011" height="68.012" viewBox="0 0 68.011 68.012">
+  <g id="crop" transform="translate(-40.25 -229.75)">
+    <g id="Group_20" data-name="Group 20" transform="translate(40.25 229.75)">
+      <path id="Path_20" data-name="Path 20" d="M41.976,297.762a1.726,1.726,0,0,1-1.221-2.947l64.559-64.559a1.727,1.727,0,1,1,2.443,2.443L43.2,297.256a1.719,1.719,0,0,1-1.221.506Z" transform="translate(-40.25 -229.75)" fill="#f6bb42"/>
+    </g>
+    <g id="crop-tool" transform="translate(43.766 233.267)">
+      <g id="crop-tool-2" data-name="crop-tool">
+        <path id="Path_21" data-name="Path 21" d="M55.809,278.568V232.31H47.4v54.67h54.67v-8.411Z" transform="translate(-41.092 -232.31)" fill="#012857"/>
+        <path id="Path_22" data-name="Path 22" d="M53.521,245.31H85.061v31.541h8.411V236.9H53.521Z" transform="translate(-38.803 -230.593)" fill="#43beca"/>
+        <rect id="Rectangle_10" data-name="Rectangle 10" width="6.308" height="8.41" transform="translate(0 6.308)" fill="#43beca"/>
+        <rect id="Rectangle_11" data-name="Rectangle 11" width="8.411" height="6.308" transform="translate(46.259 54.67)" fill="#43beca"/>
+      </g>
+    </g>
+  </g>
+</svg>

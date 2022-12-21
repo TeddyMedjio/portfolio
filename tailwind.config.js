@@ -14,6 +14,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('../public/img/bg.png')",
+        "hero-musique": "url('../public/img/background.jpg')",
+        "hero-rendez": "url('../public/img/backgroung-two.png')",
       },
     },
     plugins: [],

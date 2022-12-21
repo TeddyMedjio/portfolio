@@ -12,7 +12,7 @@ export default function Navbar({ children }) {
   return (
     <nav className="bg-[#F9FAFC] z-[500] ">
       <MobileNav open={open} setOpen={setOpen} />
-      <div className="absolute  left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container  ">
+      <div className="absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container  ">
         <Link href="/">
           <Image src={Logo} className="h-auto" alt="logo NJ" />
         </Link>
@@ -112,8 +112,10 @@ function MobileNav({ open, setOpen }) {
         <ul className=" flex flex-col justify-center space-y-8 w-[100%] text-center ">
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
             <Link
-              href="/Design"
-              className={router.pathname == "/Design" ? "font-bold" : ""}
+              href="/Graphic-design"
+              className={
+                router.pathname === "/Graphic-design" ? "font-bold" : ""
+              }
             >
               <span className="text-[#F6BB42]">D</span>esign
             </Link>
@@ -122,7 +124,7 @@ function MobileNav({ open, setOpen }) {
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
             <Link
               href="/Website"
-              className={router.pathname == "/Website" ? "font-bold" : ""}
+              className={router.pathname === "/Website" ? "font-bold" : ""}
             >
               <span className="text-[#F6BB42]">W</span>ebsite
             </Link>
@@ -130,8 +132,8 @@ function MobileNav({ open, setOpen }) {
           <hr className="border-t-2 border-[#012857]" />
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
             <Link
-              href="/Apropos"
-              className={router.pathname == "/Apropos" ? "font-bold" : ""}
+              href="/About"
+              className={router.pathname === "/About" ? "font-bold" : ""}
             >
               <span className="text-[#F6BB42]">A</span> propos
             </Link>
