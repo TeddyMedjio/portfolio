@@ -35,7 +35,7 @@ const Competence = () => {
               <Image src={figma} className="w-10 h-10" alt="logo figma" />
             </div>
             <h3 className="text-4xl font-anton text-[#012857] mb-5">
-              Concevoir le design de votre produit
+              Conception du design de votre produit
             </h3>
             <p className="text-[#475769] text-lg leading-8">
               De la stratégie digitale au design produit, je vous aide à
@@ -57,7 +57,7 @@ const Competence = () => {
               <Image src={nextjs} className="w-20" alt="logo nextjs" />
             </div>
             <h3 className="text-4xl font-anton text-[#012857] mb-5 ">
-              Construire un site sur-mesure et responsive
+              Un site sur-mesure et responsive
             </h3>
             <p className="text-[#475769] text-lg leading-8">
               Faites confiance en mes compétences sur les languages HTML, CSS,
@@ -86,7 +86,7 @@ const Competence = () => {
               />
             </div>
             <h3 className="text-4xl font-anton text-[#012857] mb-5 ">
-              Réaliser votre prochaine affiche
+              Réalisation de votre prochaine affiche
             </h3>
             <p className="text-[#475769] text-lg leading-8">
               Votre événement mérite d'être vu ! Un shooting photo - en studio
