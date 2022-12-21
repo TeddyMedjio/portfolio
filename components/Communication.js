@@ -51,7 +51,7 @@ const Communication = () => {
             </a>
           </div>
         </div>
-        <div className="flex-1 lg:pr-20 mb-10 lg:mb-0 mt-20 text-center lg:text-left lg:mt-0 lg:ml-20 ">
+        <div className="flex-1 lg:pr-20 mb-10 lg:mb-0 mt-20 lg:text-left lg:mt-0 lg:ml-20 ">
           <p className="text-base tracking-widest text-[#F6BB42] uppercase mb-5">
             Communication visuelle
           </p>

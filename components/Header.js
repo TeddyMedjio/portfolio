@@ -53,8 +53,8 @@ const Header = () => {
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-10 mt-52 md:mt-40 lg:mt-14">
             <Link
-              href="/Design"
-              className={`router.pathname == "/Design" ? "font-bold" : "" p-4 bg-[#012857] border-[1px] border-[#012857] text-white rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl `}
+              href="/Graphic-design"
+              className={`router.pathname == "/Graphic-design" ? "font-bold" : "" p-4 bg-[#012857] border-[1px] border-[#012857] text-white rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl `}
             >
               Vous avez besoin {"d'un"} designer
             </Link>

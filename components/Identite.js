@@ -13,7 +13,7 @@ const Identite = () => {
           <h2 className="text-5xl font-anton text-[#012857] leading-[70px] mb-10">
             Votre identité graphique au coeur de ma démarche
           </h2>
-          <p className="text-lg text-justify text-[#475769]">
+          <p className="text-lg text-[#475769]">
             Une gestion à 360° de votre projet ! Conception d’identité
             graphique, édition d’un brand book, création de maquettes et
             développement du site :{" "}

@@ -6,7 +6,7 @@ const Designhead = () => {
   return (
     <div className="bg-hero-color bg-cover bg-no-repeat pb-28 h-screen">
       <div className="w-[80%] mx-auto ">
-        <div className="flex flex-col items-center justify-center pt-[230px] md:pt-[200px]">
+        <div className="flex flex-col items-center justify-center pt-[150px] md:pt-[200px]">
           <p className="text-base tracking-widest text-[#F6BB42] uppercase text-center">
             expert graphiste
           </p>
@@ -20,7 +20,7 @@ const Designhead = () => {
 
           {/* Buttons */}
           <a
-            href="#"
+            href="mailto:hello@medjio.fr"
             className=" text-center bg-white border-[#012857] border-[1px] text-[#012857] text-xl transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px] cursor-pointer"
           >
             Démarrons un projet ensemble

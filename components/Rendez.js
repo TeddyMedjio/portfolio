@@ -22,9 +22,7 @@ const Rendez = () => {
             Réservez une consultation gratuite
           </a>
           <a
-            href="https://open.spotify.com/artist/19KZTKvRPAa6JH3yzLH86c"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:hello@medjio.fr"
             className="py-4 px-6 hover:px-8 transition-all duration-300 ease text-white border-white border-2 rounded-lg"
           >
             Démarrer un projet
