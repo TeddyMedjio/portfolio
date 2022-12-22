@@ -57,7 +57,8 @@ const Aboutheader = () => {
             </a>
 
             <a
-              href="#"
+              href="/img/cv.pdf"
+              download
               className=" text-center bg-gradient-to-r from-[#012857] via-[#012857] to-[#43BECA] text-white text-xl transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px] cursor-pointer"
             >
               Telecharger mon CV

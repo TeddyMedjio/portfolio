@@ -25,7 +25,7 @@ const Identite = () => {
         </div>
         <Image
           src={entreprise}
-          className=" w-[550px]"
+          className="flex-1 w-[500px]"
           alt="logos entreprises"
         />
       </div>

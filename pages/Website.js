@@ -1,6 +1,11 @@
 import Head from "next/head";
-
-Head;
+import Besoindesite from "../components/Besoindesite";
+import Headerwesite from "../components/Headerwebsite";
+import Projects from "../components/Projects";
+import Webdesign from "../components/Webdesign";
+import Rendez from "../components/Rendez";
+import Footer from "../components/Footer";
+import Webdesignpropo from "../components/Webdesignpropo";
 
 const Website = () => {
   return (
@@ -9,7 +14,13 @@ const Website = () => {
         <title>Website</title>
         <meta name="keywords" content="Website" />
       </Head>
-      <h1>Website</h1>
+      <Headerwesite />
+      <Webdesign />
+      <Besoindesite />
+      <Projects />
+      <Webdesignpropo />
+      <Rendez />
+      <Footer />
     </div>
   );
 };

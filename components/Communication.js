@@ -10,12 +10,12 @@ const Communication = () => {
   return (
     <div className="bg-[#F9FAFC] border-y-[#E9EAEF] border-2 mt-36">
       <div className="mx-auto conatiner w-[80%] flex flex-col lg:flex-row items-center justify-center my-28 ">
-        <div className="flex-2 flex flex-col lg:flex-row items-center justify-center">
-          <div>
+        <div className="flex-1 flex flex-col lg:flex-row items-center justify-center">
+          <div className="lg:mr-5">
             <a href="#">
               <Image
                 src={dj}
-                className="hover:scale-95 transition-all duration-500 "
+                className="hover:scale-95 transition-all duration-500 lg:mb-5 "
                 alt="flyers"
               />
             </a>
@@ -31,14 +31,14 @@ const Communication = () => {
             <a href="#">
               <Image
                 src={dadju}
-                className="hover:scale-95 transition-all duration-500"
+                className="hover:scale-95 transition-all duration-500 lg:mb-5"
                 alt="flyers"
               />
             </a>
             <a href="#">
               <Image
                 src={gwen}
-                className="hover:scale-95 transition-all duration-500"
+                className="hover:scale-95 transition-all duration-500 lg:mb-5"
                 alt="flyers"
               />
             </a>
@@ -51,7 +51,7 @@ const Communication = () => {
             </a>
           </div>
         </div>
-        <div className="flex-1 lg:pr-20 mb-10 lg:mb-0 mt-20 lg:text-left lg:mt-0 lg:ml-20 ">
+        <div className="flex-1  mb-10 lg:mb-0 mt-20 lg:text-left lg:mt-0 lg:ml-20 ">
           <p className="text-base tracking-widest text-[#F6BB42] uppercase mb-5">
             Communication visuelle
           </p>

@@ -8,12 +8,12 @@ const Designhead = () => {
       <div className="w-[80%] mx-auto ">
         <div className="flex flex-col items-center justify-center pt-[150px] md:pt-[200px]">
           <p className="text-base tracking-widest text-[#F6BB42] uppercase text-center">
-            expert graphiste
+            expert Webdesigner & front-end dev
           </p>
           <div className="flex flex-col items-center justify-center">
             <div className="text-center">
-              <h1 className="title font-anton uppercase text-[45px] md:text-[70px] lg:text-[90px] lg:max-w-[950px] text-[#012857] mb-10">
-                Direction artistique de qualité pour les créatifs.
+              <h1 className="title font-anton uppercase text-[45px] md:text-[70px] lg:text-[90px] lg:max-w-[900px] text-[#012857] mb-10">
+                sites internet de qualité pour les créatifs.
               </h1>
             </div>
           </div>

@@ -4,8 +4,8 @@ import DemoCarousel from "./DemoCarousel";
 const Temoignage = () => {
   return (
     <div>
-      <div className="mx-auto conatiner w-[80%] md:w-[90%] lg:w-[80%] flex flex-col md:flex-row items-center justify-center my-28">
-        <div className="flex-1 md:pr-14 lg:pr-10 mb-10 ">
+      <div className="mx-auto conatiner w-[80%] md:w-[90%] lg:w-[75%] flex flex-col md:flex-row items-center justify-center lg:my-28">
+        <div className="flex-1 mb-10 lg:mb-0 ">
           <p className="text-base tracking-widest text-[#F6BB42] uppercase mb-5">
             Ils/elles en parlent le mieux
           </p>
@@ -23,7 +23,7 @@ const Temoignage = () => {
             afin de restituer au mieux leur demande.
           </p>
         </div>
-        <div className="flex-1 overflow-x-hidden">
+        <div className=" w-[500px] overflow-x-hidden">
           <DemoCarousel />
         </div>
       </div>

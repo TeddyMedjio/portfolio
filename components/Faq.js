@@ -3,12 +3,12 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 
 export default function Faq() {
   return (
-    <div className="m-auto container w-[80%] my-28">
-      <div className="mx-auto w-full">
+    <div className="mx-auto container w-[80%] my-28">
+      <div className="">
         <Disclosure>
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex w-full justify-between border-b-[#012857] border-b-2 py-2 text-left font-anton text-3xl lg:text-4xl text-[#012857]  ">
+              <Disclosure.Button className="flex w-full justify-between border-b-[#012857] border-b-[1px] py-2 text-left font-anton text-3xl lg:text-4xl text-[#012857]  ">
                 <span>
                   Quel tarif dois-je prévoir pour un site performant ?
                 </span>
@@ -18,7 +18,7 @@ export default function Faq() {
                   } h-10 w-10 text-[#012857]`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className=" py-4 px-5 lg:px-10 text-lg bg-[#F6BB42] text-[#012857] ">
+              <Disclosure.Panel className=" py-4 px-5 lg:px-10 text-lg bg-gray-50 text-[#012857]  ">
                 Tout dépend du périmètre du projet. <br /> Durant notre première
                 réunion téléphonique, nous chercherons à délimiter les besoins
                 et points clés de votre projet : le nombre de pages, les
@@ -41,7 +41,7 @@ export default function Faq() {
         <Disclosure as="div" className="mt-10">
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex w-full justify-between border-b-[#012857] border-b-2 py-2 text-left font-anton text-3xl lg:text-4xl text-[#012857]  ">
+              <Disclosure.Button className="flex w-full justify-between border-b-[#012857] border-b-[1px] py-2 text-left font-anton text-3xl lg:text-4xl text-[#012857]  ">
                 <span>
                   En combien de temps mon site sera-t-il opérationnel ?
                 </span>
@@ -51,7 +51,7 @@ export default function Faq() {
                   } h-10 w-10 text-[#012857]`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className=" py-4 px-5 lg:px-10 text-lg bg-[#F6BB42] text-[#012857] ">
+              <Disclosure.Panel className=" py-4 px-5 lg:px-10 text-lg bg-gray-50 text-[#012857] ">
                 Cela va dépendre de vos besoins :<br /> - Pour une landing-page,
                 comptez entre une et 3 semaines de production.
                 <br /> - Un site internet complet entre 5 et 10 pages prendra
@@ -70,7 +70,7 @@ export default function Faq() {
         <Disclosure as="div" className="mt-10">
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex w-full justify-between border-b-[#012857] border-b-2 py-2 text-left font-anton text-3xl lg:text-4xl text-[#012857]  ">
+              <Disclosure.Button className="flex w-full justify-between border-b-[#012857] border-b-[1px] py-2 text-left font-anton text-3xl lg:text-4xl text-[#012857]  ">
                 <span>Proposez-vous d’autres services que le webdesign ?</span>
                 <ChevronUpIcon
                   className={`${
@@ -78,7 +78,7 @@ export default function Faq() {
                   } h-10 w-10 text-[#012857]`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className=" py-4 px-5 lg:px-10 text-lg bg-[#F6BB42] text-[#012857] ">
+              <Disclosure.Panel className=" py-4 px-5 lg:px-10 text-lg bg-gray-50 text-[#012857] ">
                 Bien sûr ! Voici l'étendue des services que je peux vous
                 proposer afin d'intervenir à 360° sur votre projet : <br /> -
                 Direction artistique <br />- Branding / Conception d'identité
@@ -91,7 +91,7 @@ export default function Faq() {
         <Disclosure as="div" className="mt-10">
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex w-full justify-between border-b-[#012857] border-b-2 py-2 text-left font-anton text-3xl lg:text-4xl text-[#012857]  ">
+              <Disclosure.Button className="flex w-full justify-between border-b-[#012857] border-b-[1px] py-2 text-left font-anton text-3xl lg:text-4xl text-[#012857]  ">
                 <span>
                   Un site e-commerce, est-ce que c’est dans vos cordes ?
                 </span>
@@ -101,7 +101,7 @@ export default function Faq() {
                   } h-10 w-10 text-[#012857]`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className=" py-4 px-5 lg:px-10 text-lg bg-[#F6BB42] text-[#012857] ">
+              <Disclosure.Panel className=" py-4 px-5 lg:px-10 text-lg bg-gray-50 text-[#012857] ">
                 Si vous avez besoin d'un simple site e-commerce ou d'une page
                 boutique avec quelques articles à mettre en vente alors oui, je
                 peux m'en charger et le développer directement. En revanche si

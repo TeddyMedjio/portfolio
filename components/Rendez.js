@@ -23,7 +23,7 @@ const Rendez = () => {
           </a>
           <a
             href="mailto:hello@medjio.fr"
-            className="py-4 px-6 hover:px-8 transition-all duration-300 ease text-white border-white border-2 rounded-lg"
+            className="py-4 px-6 hover:px-8 transition-all duration-300 ease text-white border-white border-[1px] rounded-lg"
           >
             Démarrer un projet
           </a>
