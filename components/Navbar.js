@@ -13,9 +13,9 @@ export default function Navbar({ children }) {
     <nav className="bg-[#F9FAFC] z-[500] ">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container  ">
-        <a href="/">
+        <Link href="/">
           <Image src={Logo} className="h-auto" alt="logo NJ" />
-        </a>
+        </Link>
 
         <div className="hidden lg:flex items-center">
           <ul className="flex space-x-12 mr-12">
@@ -110,23 +110,23 @@ function MobileNav({ open, setOpen }) {
       <div className=" flex flex-col items-center justify-center space-y-32 mt-12 mx-auto">
         <ul className=" flex flex-col justify-center space-y-8 w-[100%] text-center ">
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <a href="/Graphic-design">
+            <Link href="/Graphic-design">
               <span className="text-[#F6BB42]">D</span>esign
-            </a>
+            </Link>
           </li>
 
           <hr className="border-t-2 border-[#012857] " />
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <a href="/Website">
+            <Link href="/Website">
               <span className="text-[#F6BB42]">W</span>ebsite
-            </a>
+            </Link>
           </li>
 
           <hr className="border-t-2 border-[#012857]" />
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <a href="/About">
+            <Link href="/About">
               <span className="text-[#F6BB42]">A</span> propos
-            </a>
+            </Link>
           </li>
           <hr className="border-t-2 border-[#012857]" />
         </ul>
