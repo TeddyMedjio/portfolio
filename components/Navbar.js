@@ -13,9 +13,9 @@ export default function Navbar({ children }) {
     <nav className="bg-[#F9FAFC] z-[500] ">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container  ">
-        <Link href="/">
+        <a href="/">
           <Image src={Logo} className="h-auto" alt="logo NJ" />
-        </Link>
+        </a>
 
         <div className="hidden lg:flex items-center">
           <ul className="flex space-x-12 mr-12">
@@ -100,43 +100,33 @@ export default function Navbar({ children }) {
 // mobile navigation
 
 function MobileNav({ open, setOpen }) {
-  const router = useRouter();
   return (
     <div
       className={`z-[500] lg:hidden absolute top-36 left-0 h-screen w-full bg-white transform ${
-        open ? "-translate-x-0 " : "hidden"
+        open ? "-translate-x-0 " : "-translate-x-full"
       } transition-transform duration-700 ease-in-out`}
     >
       <hr className="border-t-2 border-[#012857]" />
       <div className=" flex flex-col items-center justify-center space-y-32 mt-12 mx-auto">
         <ul className=" flex flex-col justify-center space-y-8 w-[100%] text-center ">
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link
-              href="/Graphic-design"
-              className={
-                router.pathname === "/Graphic-design" ? "font-bold" : ""
-              }
-            >
+            <a href="/Graphic-design">
               <span className="text-[#F6BB42]">D</span>esign
-            </Link>
+            </a>
           </li>
+
           <hr className="border-t-2 border-[#012857] " />
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link
-              href="/Website"
-              className={router.pathname === "/Website" ? "font-bold" : ""}
-            >
+            <a href="/Website">
               <span className="text-[#F6BB42]">W</span>ebsite
-            </Link>
+            </a>
           </li>
+
           <hr className="border-t-2 border-[#012857]" />
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link
-              href="/About"
-              className={router.pathname === "/About" ? "font-bold" : ""}
-            >
+            <a href="/About">
               <span className="text-[#F6BB42]">A</span> propos
-            </Link>
+            </a>
           </li>
           <hr className="border-t-2 border-[#012857]" />
         </ul>
