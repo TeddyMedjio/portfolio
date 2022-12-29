@@ -111,32 +111,23 @@ function MobileNav({ open, setOpen }) {
       <div className=" flex flex-col items-center justify-center space-y-32 mt-12 mx-auto">
         <ul className=" flex flex-col justify-center space-y-8 w-[100%] text-center ">
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link
-              href="/Graphic-design"
-              className={router.pathname == "/Graphic-design" ? "" : ""}
-            >
+            <a href="/Graphic-design">
               <span className="text-[#F6BB42]">D</span>esign
-            </Link>
+            </a>
           </li>
 
           <hr className="border-t-2 border-[#012857] " />
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link
-              href="/Website"
-              className={router.pathname == "/Website" ? "" : ""}
-            >
+            <a href="/Website">
               <span className="text-[#F6BB42]">W</span>ebsite
-            </Link>
+            </a>
           </li>
 
           <hr className="border-t-2 border-[#012857]" />
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link
-              href="/About"
-              className={router.pathname == "/About" ? "" : ""}
-            >
+            <a href="/About">
               <span className="text-[#F6BB42]">A</span> propos
-            </Link>
+            </a>
           </li>
           <hr className="border-t-2 border-[#012857]" />
         </ul>
@@ -161,7 +152,7 @@ function MobileNav({ open, setOpen }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={linkedin} className="w-7" alt="logo behance" />
+            <Image src={linkedin} className="w-7" alt="logo linkedin" />
           </a>
         </div>
       </div>
