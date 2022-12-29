@@ -13,9 +13,9 @@ export default function Navbar({ children }) {
     <nav className="bg-[#F9FAFC] z-[500] ">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container  ">
-        <Link href="/">
+        <a href="/">
           <Image src={Logo} className="h-auto" alt="logo NJ" />
-        </Link>
+        </a>
 
         <div className="hidden lg:flex items-center">
           <ul className="flex space-x-12 mr-12">
@@ -100,7 +100,6 @@ export default function Navbar({ children }) {
 // mobile navigation
 
 function MobileNav({ open, setOpen }) {
-  const router = useRouter();
   return (
     <div
       className={`z-[500] lg:hidden absolute top-36 left-0 h-screen w-full bg-white transform ${
