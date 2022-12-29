@@ -100,6 +100,7 @@ export default function Navbar({ children }) {
 // mobile navigation
 
 function MobileNav({ open, setOpen }) {
+  const router = useRouter();
   return (
     <div
       className={`z-[500] lg:hidden absolute top-36 left-0 h-screen w-full bg-white transform ${
@@ -110,21 +111,30 @@ function MobileNav({ open, setOpen }) {
       <div className=" flex flex-col items-center justify-center space-y-32 mt-12 mx-auto">
         <ul className=" flex flex-col justify-center space-y-8 w-[100%] text-center ">
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link href="/Graphic-design">
+            <Link
+              href="/Graphic-design"
+              className={router.pathname == "/Graphic-design" ? "" : ""}
+            >
               <span className="text-[#F6BB42]">D</span>esign
             </Link>
           </li>
 
           <hr className="border-t-2 border-[#012857] " />
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link href="/Website">
+            <Link
+              href="/Website"
+              className={router.pathname == "/Website" ? "" : ""}
+            >
               <span className="text-[#F6BB42]">W</span>ebsite
             </Link>
           </li>
 
           <hr className="border-t-2 border-[#012857]" />
           <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link href="/About">
+            <Link
+              href="/About"
+              className={router.pathname == "/About" ? "" : ""}
+            >
               <span className="text-[#F6BB42]">A</span> propos
             </Link>
           </li>
