@@ -15,7 +15,7 @@ const Header = () => {
         <div className="flex flex-col items-center justify-center pt-[180px] md:pt-[200px]">
           <p className="text-xl text-darkBlue text-center">
             👋🏽, Je {"m'appelle "}
-            <span className="text-[#F6BB42]">N. Jean claude</span> , je suis
+            <span className="text-yellow">N. Jean claude</span> , je suis
           </p>
           <div className="relative flex flex-col items-center justify-center">
             {/* elements animes */}

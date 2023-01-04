@@ -5,11 +5,11 @@ import office from "../public/img/office.gif";
 const Aboutsite = () => {
   return (
     <div className="mt-28">
-      <div className="w-[80%] md:w-[65%] lg:w-[35%] mx-auto">
+      <div className="w-10/12 md:w-[65%] lg:w-[35%] mx-auto">
         <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
           Je fais des sites et des designs, et je le fais bien.
         </h2>
-        <p className="text-lg text-justify text-[#475769]">
+        <p className="text-lg text-bluegray">
           Passionné par la musique, le football et le graphisme, j’aime
           collaborer avec des personnes qui attachent une importance à
           l’esthétisme, qui comprennent le pouvoir de la simplicité et qui
@@ -46,25 +46,25 @@ const Aboutsite = () => {
       </div>
 
       {/* third party */}
-      <div className="w-[80%] md:w-[65%] lg:w-[35%] mx-auto my-40 space-y-10">
-        <p className="text-lg tracking-widest text-[#F6BB42] uppercase ">
+      <div className="w-10/12 md:w-[65%] lg:w-[35%] mx-auto my-40 space-y-10">
+        <p className="text-lg tracking-widest text-yellow uppercase ">
           ce que j'aime
         </p>
         <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
           3 choses à mon sujet
         </h2>
-        <p className="text-lg text-[#475769] text-justify">
+        <p className="text-lg text-bluegray">
           <span className="text-darkBlue font-bold">1-</span> La majorité de mon
           temps libre est consacrée à{" "}
           <span className="font-bold">la musique et à la cuisine</span>, une
           activité passionnante qui me permet de développer ma créativité.
         </p>
-        <p className="text-lg text-[#475769] text-justify">
+        <p className="text-lg text-bluegray">
           <span className="text-darkBlue font-bold">2-</span> Je considère cette
           scène de <span className="font-bold">The Office</span> comme étant la
           vidéo la plus drôle au monde😂😂.
         </p>
-        <p className="text-lg text-[#475769] text-justify">
+        <p className="text-lg text-bluegray">
           <span className="text-darkBlue font-bold">3-</span> J'aime le chiffre
           3 je pense sa à un rapport avec le fait que je sois née le 3e mois.
         </p>

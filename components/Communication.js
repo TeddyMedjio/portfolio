@@ -9,7 +9,7 @@ import magasine from "../public/img/magasine.png";
 const Communication = () => {
   return (
     <div className="bg-[#F9FAFC] border-y-[#E9EAEF] border-2 mt-36">
-      <div className=" mx-auto conatiner lg:w-[80%] flex flex-col-reverse lg:flex-row items-center justify-center lg:my-28 sm:mb-14 ">
+      <div className=" mx-auto container lg:w-[80%] flex flex-col-reverse lg:flex-row items-center justify-center lg:my-28 sm:mb-14 ">
         <div className="relative w-screen max-w-full h-[364px] lg:h-auto overflow-x-auto">
           <div className="absolute whitespace-nowrap snap-x lg:relative lg:flex-1 flex items-center justify-center ">
             <div className="hidden lg:flex flex-col items-center lg:mr-5">
@@ -58,13 +58,13 @@ const Communication = () => {
           </div>
         </div>
         <div className="w-10/12 lg:w-full  my-28 lg:ml-16 space-y-10 ">
-          <p className="text-base tracking-widest text-[#F6BB42] uppercase ">
+          <p className="text-base tracking-widest text-yellow uppercase ">
             Communication visuelle
           </p>
           <h2 className="text-5xl font-anton text-darkBlue leading-[70px]">
             Tourné vers l'événementiel
           </h2>
-          <p className="text-lg text-[#475769]">
+          <p className="text-lg text-bluegray">
             Votre projet de création nécessite de la communication
             événementielle ? Avec plus de 8 ans d'expérience dans ce domaine, je
             conçois des identités graphiques mémorables pour vos événements. Du

@@ -22,7 +22,7 @@ const Competence = () => {
           </h2>
           <a
             href="mailto:hello@medjio.me"
-            className="hidden lg:block bg-gradient-to-r from-darkBlue via-darkBlue to-[#43BECA] text-white text-xl transition-all duration-300 ease hover:px-7 px-5 py-3 rounded-[4px]"
+            className="hidden lg:block bg-gradient-to-r from-darkBlue via-darkBlue to-lightgreen text-white text-xl transition-all duration-300 ease hover:px-7 px-5 py-3 rounded-[4px]"
           >
             Démarrer un projet
           </a>
@@ -37,7 +37,7 @@ const Competence = () => {
             <h3 className="text-4xl font-anton text-darkBlue mb-5">
               Conception du design de votre produit
             </h3>
-            <p className="text-[#475769] text-lg leading-8">
+            <p className="text-bluegray text-lg leading-8">
               De la stratégie digitale au design produit, je vous aide à
               atteindre vos objectifs et résoudre des problématiques complexes
               grâce au design.
@@ -59,7 +59,7 @@ const Competence = () => {
             <h3 className="text-4xl font-anton text-darkBlue mb-5 ">
               Un site sur-mesure et responsive
             </h3>
-            <p className="text-[#475769] text-lg leading-8">
+            <p className="text-bluegray text-lg leading-8">
               Faites confiance en mes compétences sur les languages HTML, CSS,
               Javascript et les frameworks React js et Next JS afin de vous
               réaliser un site unique, performant et livré rapidement.
@@ -88,7 +88,7 @@ const Competence = () => {
             <h3 className="text-4xl font-anton text-darkBlue mb-5 ">
               Réalisation de votre prochaine affiche
             </h3>
-            <p className="text-[#475769] text-lg leading-8">
+            <p className="text-bluegray text-lg leading-8">
               Votre événement mérite d'être vu ! Un shooting photo - en studio
               ou en extérieur - et un grand coup de Photoshop me permettront de
               réaliser l'affiche dont vous rêvez pour convaincre votre public.

@@ -15,7 +15,6 @@ const Apropos = () => {
         <title>About</title>
         <meta name="A propos" content="About" />
       </Head>
-
       <Aboutheader />
       <Aboutsite />
       <Playlist />

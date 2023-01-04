@@ -20,13 +20,13 @@ const Identite = () => {
         </video>
 
         <div className="flex-1 lg:pl-20 mb-10 ">
-          <p className="text-base tracking-widest text-[#F6BB42] uppercase mb-5">
+          <p className="text-base tracking-widest text-yellow uppercase mb-5">
             Webdesign
           </p>
           <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
             Un site performant et facile à administrer
           </h2>
-          <p className="text-lg text-[#475769]">
+          <p className="text-lg text-bluegray">
             Aucun template ! En tant Web dev, je crée vos sites sur-mesure pour
             accroître votre expérience de marque et vous faire gagner en
             productivité. Facile d’accès, optimisé pour la SEO et libre de toute

@@ -11,7 +11,7 @@ const Aboutheader = () => {
     <div className="bg-hero-pattern bg-cover bg-no-repeat pb-28">
       <div className="bg-gradient-to-b from-[#F9FAFC] ">
         <div className="flex flex-col items-center justify-center pt-[180px] md:pt-[200px]">
-          <p className="text-base tracking-widest text-[#F6BB42] uppercase text-center">
+          <p className="text-base tracking-widest text-yellow uppercase text-center">
             Apprenons à nous connaître
           </p>
           <div className="relative flex flex-col items-center justify-center">
@@ -27,7 +27,7 @@ const Aboutheader = () => {
               alt="image anchor"
             />
             <div className="text-center">
-              <h1 className="title font-anton uppercase text-[80px] md:text-[108px] lg:text-[150px] text-[#012857] cursor-pointer">
+              <h1 className="title font-anton uppercase text-[80px] md:text-[108px] lg:text-[150px] text-darkBlue cursor-pointer">
                 à propos
               </h1>
               <h1 className="hidden md:block absolute uppercase top-[0px] title-line font-anton text-[80px] md:text-[108px] lg:text-[150px] cursor-default z-50">
