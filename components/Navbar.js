@@ -45,9 +45,9 @@ export default function Navbar({ children }) {
             </li>
             <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] ">
               <Link
-                href="/about"
+                href="/a-propos"
                 className={
-                  router.pathname == "/about"
+                  router.pathname == "/a-propos"
                     ? "text-[#43BECA] font-medium"
                     : ""
                 }
@@ -125,7 +125,7 @@ function MobileNav({ open, setOpen }) {
 
           <hr className="border-t-2 border-darkBlue" />
           <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link href="/about">
+            <Link href="/a-propos">
               <span className="text-[#F6BB42]">A</span> propos
             </Link>
           </li>

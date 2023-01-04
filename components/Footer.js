@@ -41,7 +41,7 @@ const Footer = () => {
             </li>
             <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] ">
               <Link
-                href="/about"
+                href="/a-propos"
                 className={
                   router.pathname == "/about" ? "text-darkBlue font-medium" : ""
                 }
