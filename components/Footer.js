@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="bg-[#F6BB42]">
       <div className=" flex items-center justify-between w-[80%] mx-auto container py-8  ">
         <Link href="/">
-          <Image src={Logo} className="h-auto" alt="logo NJ" />
+          <Image src={Logo} alt="logo NJ" className="h-auto" />
         </Link>
 
         <div className="lg:flex items-center">
