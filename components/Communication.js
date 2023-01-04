@@ -57,11 +57,11 @@ const Communication = () => {
             </div>
           </div>
         </div>
-        <div className=" lg:mb-0 my-28 lg:text-left sm:w-[80%] lg:ml-16 ">
-          <p className="text-base tracking-widest text-[#F6BB42] uppercase mb-5">
+        <div className="w-10/12 lg:w-full  my-28 lg:ml-16 space-y-10 ">
+          <p className="text-base tracking-widest text-[#F6BB42] uppercase ">
             Communication visuelle
           </p>
-          <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
+          <h2 className="text-5xl font-anton text-darkBlue leading-[70px]">
             Tourné vers l'événementiel
           </h2>
           <p className="text-lg text-[#475769]">

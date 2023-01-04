@@ -27,7 +27,7 @@ export default function App() {
       >
         <SwiperSlide>
           {" "}
-          <div className="absolute h-38 pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-900">
+          <div className="absolute pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-900">
             <p className="text-sm font-normal">
               M. Jean Claude brille par sa capacité à comprendre immédiatement
               le brief et à le remettre aussitôt en perspective de façon
