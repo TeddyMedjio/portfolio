@@ -230,7 +230,10 @@ body {
 }
 
 .gradient-mask {
-  background: radial-gradient(transparent 0%, theme("colors.gray.900") 70%);
+  background-color: radial-gradient(
+    transparent 0%,
+    theme("colors.gray.900") 70%
+  );
   height: full;
 }
 
