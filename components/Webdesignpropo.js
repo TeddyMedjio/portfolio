@@ -7,16 +7,16 @@ const Identite = () => {
         <video
           autoPlay
           loop
-          className="hidden lg:block my-5 lg:mt-0 w-[474px] md:w-auto lg:w-[474px] rounded-2xl"
+          className="lg:hidden my-5 lg:mt-0 w-[474px] md:w-auto lg:w-[474px] rounded-2xl"
         >
-          <source src={"/animation.mp4"} />
+          <source src={"/animation.webm"} />
         </video>
         <video
           autoPlay
           loop
-          className="lg:hidden my-5 lg:mt-0 w-[474px] md:w-auto lg:w-[474px] rounded-2xl"
+          className="hidden lg:block my-5 lg:mt-0 w-[474px] md:w-auto lg:w-[474px] rounded-2xl"
         >
-          <source src={"/animation.webm"} />
+          <source src={"/animation.mp4"} />
         </video>
 
         <div className="flex-1 lg:pl-20 mb-10 ">

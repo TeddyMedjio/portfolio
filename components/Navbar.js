@@ -12,7 +12,7 @@ export default function Navbar({ children }) {
   return (
     <nav className="bg-[#F9FAFC] z-[500] ">
       <MobileNav open={open} setOpen={setOpen} />
-      <div className="absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container  ">
+      <div className="absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container">
         <Link href="/">
           <Image src={Logo} height="auto" alt="logo NJ" />
         </Link>
@@ -105,7 +105,10 @@ function MobileNav({ open, setOpen }) {
     <div
       className={`z-[500] lg:hidden absolute top-36 left-0 h-screen w-full bg-white transform ${
         open ? "-translate-x-0 " : "-translate-x-full"
-      } transition-transform duration-700 ease-in-out`}
+      } transition-transform duration-700 ease-in-out `}
+      onClick={() => {
+        setOpen(!open);
+      }}
     >
       <hr className="border-t-2 border-darkBlue" />
       <div className=" flex flex-col items-center justify-center space-y-32 mt-12 mx-auto">
