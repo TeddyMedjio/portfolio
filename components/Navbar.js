@@ -58,7 +58,7 @@ export default function Navbar({ children }) {
           </ul>
 
           <a
-            href="mailto:hello@medjio.fr"
+            href="mailto:hello@medjio.me"
             className="bg-gradient-to-r from-darkBlue via-darkBlue to-lightBlue text-white transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
           >
             hello@medjio.me
