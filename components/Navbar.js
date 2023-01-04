@@ -21,9 +21,9 @@ export default function Navbar({ children }) {
           <ul className="flex space-x-12 mr-12">
             <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA]">
               <Link
-                href="/graphic-design"
+                href="/design"
                 className={
-                  router.pathname == "/graphic-design"
+                  router.pathname == "/design"
                     ? "text-[#43BECA] font-medium"
                     : ""
                 }
@@ -33,9 +33,9 @@ export default function Navbar({ children }) {
             </li>
             <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA]">
               <Link
-                href="/website"
+                href="/web-site"
                 className={
-                  router.pathname == "/website"
+                  router.pathname == "/web-site"
                     ? "text-[#43BECA] font-medium"
                     : ""
                 }
@@ -111,14 +111,14 @@ function MobileNav({ open, setOpen }) {
       <div className=" flex flex-col items-center justify-center space-y-32 mt-12 mx-auto">
         <ul className=" flex flex-col justify-center space-y-8 w-[100%] text-center ">
           <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link href="/graphic-design">
+            <Link href="/design">
               <span className="text-[#F6BB42]">D</span>esign
             </Link>
           </li>
 
           <hr className="border-t-2 border-darkBlue " />
           <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link href="/website">
+            <Link href="/web-site">
               <span className="text-[#F6BB42]">W</span>ebsite
             </Link>
           </li>

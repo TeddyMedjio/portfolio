@@ -17,9 +17,9 @@ const Footer = () => {
           <ul className="hidden lg:flex space-x-12 mr-12">
             <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA]">
               <Link
-                href="/graphic-design"
+                href="/design"
                 className={
-                  router.pathname == "/graphic-design"
+                  router.pathname == "/design"
                     ? "text-darkBlue font-medium"
                     : ""
                 }
@@ -29,9 +29,9 @@ const Footer = () => {
             </li>
             <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA]">
               <Link
-                href="/website"
+                href="/web-site"
                 className={
-                  router.pathname == "/website"
+                  router.pathname == "/web-site"
                     ? "text-darkBlue font-medium"
                     : ""
                 }
