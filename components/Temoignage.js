@@ -4,12 +4,12 @@ import DemoCarousel from "./DemoCarousel";
 const Temoignage = () => {
   return (
     <div>
-      <div className="mt-20 m mx-auto conatiner w-[80%] md:w-[90%] lg:w-[75%] flex flex-col md:flex-row items-center justify-center lg:my-28">
-        <div className="flex-1 mb-10 lg:mb-0 ">
+      <div className="mt-20 m mx-auto conatiner w-[80%] md:w-[90%] lg:w-[75%] flex flex-col lg:flex-row items-center justify-between lg:my-28">
+        <div className="w-[90%] lg:w-[55%] max-w-[648px] mb-10 lg:mb-0 ">
           <p className="text-base tracking-widest text-[#F6BB42] uppercase mb-5">
             Ils/elles en parlent le mieux
           </p>
-          <h2 className="text-5xl font-anton text-[#012857] leading-[70px] mb-10">
+          <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
             Votre satisfaction avant tout
           </h2>
           <p className="text-lg text-[#475769]">
@@ -23,7 +23,7 @@ const Temoignage = () => {
             afin de restituer au mieux leur demande.
           </p>
         </div>
-        <div className="w-auto md:w-[500px] overflow-x-hidden">
+        <div>
           <DemoCarousel />
         </div>
       </div>

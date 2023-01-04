@@ -5,6 +5,7 @@ import Projects from "../components/Projects";
 import Webdesign from "../components/Webdesign";
 import Rendez from "../components/Rendez";
 import Footer from "../components/Footer";
+import Faq from "../components/Faq";
 import Webdesignpropo from "../components/Webdesignpropo";
 
 const Website = () => {
@@ -19,6 +20,7 @@ const Website = () => {
       <Besoindesite />
       <Projects />
       <Webdesignpropo />
+      <Faq />
       <Rendez />
       <Footer />
     </div>

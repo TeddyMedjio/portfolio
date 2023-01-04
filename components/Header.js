@@ -13,7 +13,7 @@ const Header = () => {
     <div className="bg-hero-pattern bg-cover bg-no-repeat h-screen">
       <div className="bg-gradient-to-b from-[#F9FAFC] ">
         <div className="flex flex-col items-center justify-center pt-[180px] md:pt-[200px]">
-          <p className="text-xl text-[#012857] text-center">
+          <p className="text-xl text-darkBlue text-center">
             👋🏽, Je {"m'appelle "}
             <span className="text-[#F6BB42]">N. Jean claude</span> , je suis
           </p>
@@ -30,7 +30,7 @@ const Header = () => {
               alt="image pen-tool"
             />
             <div className="text-center">
-              <h1 className="title font-anton text-[60px] md:text-[108px] lg:text-[165px] text-[#012857] cursor-pointer">
+              <h1 className="title font-anton text-[60px] md:text-[108px] lg:text-[165px] text-darkBlue cursor-pointer">
                 Webdesigner
               </h1>
               <h1 className="hidden md:block absolute top-[0px] title-line font-anton text-[60px] md:text-[108px] lg:text-[165px] cursor-default z-50">
@@ -54,13 +54,13 @@ const Header = () => {
           <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-10 mt-52 md:mt-40 lg:mt-14">
             <Link
               href="/Graphic-design"
-              className={`router.pathname == "/Graphic-design" ? "font-bold" : "" p-4 bg-[#012857] border-[1px] border-[#012857] text-white rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl `}
+              className={`router.pathname == "/Graphic-design" ? "font-bold" : "" p-4 bg-darkBlue border-[1px] border-darkBlue text-white rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl `}
             >
               Vous avez besoin {"d'un"} designer
             </Link>
             <Link
               href="/Website"
-              className={`router.pathname == "/Website" ? "font-bold" : "" bg-white p-4 border-[#012857] border-[1px] rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl`}
+              className={`router.pathname == "/Website" ? "font-bold" : "" bg-white p-4 border-darkBlue border-[1px] rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl`}
               $
             >
               Vous avez besoin {"d'un"} front-end dev

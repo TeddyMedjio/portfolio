@@ -3,7 +3,7 @@ import Slideprojet from "./Slideprojet";
 
 const Projects = () => {
   return (
-    <div className=" bg-[#012857] h-[926px] my-28">
+    <div className=" bg-darkBlue h-[926px] my-28">
       <div className="relative z-0 h-[926px]">
         <div className=" gradient-mask absolute inset-0 w-full overflow-x-hidden">
           <div className="centrer h-[500px] w-[1180px] whitespace-nowrap">

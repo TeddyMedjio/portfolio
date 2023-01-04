@@ -10,7 +10,7 @@ const Identite = () => {
           <p className="text-base tracking-widest text-[#F6BB42] uppercase mb-5">
             branding
           </p>
-          <h2 className="text-5xl font-anton text-[#012857] leading-[70px] mb-10">
+          <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
             Votre identité graphique au coeur de ma démarche
           </h2>
           <p className="text-lg text-[#475769]">

@@ -12,7 +12,7 @@ const Designhead = () => {
           </p>
           <div className="flex flex-col items-center justify-center">
             <div className="text-center">
-              <h1 className="title font-anton uppercase text-[45px] md:text-[70px] lg:text-[90px] lg:max-w-[900px] text-[#012857] mb-10">
+              <h1 className="title font-anton uppercase text-[45px] md:text-[70px] lg:text-[90px] lg:max-w-[900px] text-darkBlue mb-10">
                 sites internet de qualité pour les créatifs.
               </h1>
             </div>
@@ -20,17 +20,17 @@ const Designhead = () => {
 
           {/* Buttons */}
           <a
-            href="mailto:hello@medjio.fr"
-            className=" text-center bg-white border-[#012857] border-[1px] text-[#012857] text-xl transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px] cursor-pointer"
+            href="mailto:hello@medjio.me"
+            className=" text-center bg-white border-darkBlue border-[1px] text-darkBlue text-xl transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px] cursor-pointer"
           >
             Démarrons un projet ensemble
           </a>
           {/* animation logos */}
-          <div className="w-[380px] md:w-[500px] overflow-x-auto mt-10">
+          <div className="w-[380px]  lg:md:w-[900px] overflow-x-auto mt-10">
             <div className="slider mix-blend-multiply">
               <div className="slide-track">
                 <Image src={logos} className="h-[100px]" />
-                <Image src={logos} className="h-[100px]" />
+                <Image src={logos} className="h-[100px] ml-14" />
 
                 {/* <!-- same 9 slides doubled (duplicate) --> */}
               </div>

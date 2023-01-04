@@ -15,37 +15,35 @@ const Footer = () => {
 
         <div className="lg:flex items-center">
           <ul className="hidden lg:flex space-x-12 mr-12">
-            <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA]">
+            <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA]">
               <Link
-                href="/Graphic-design"
+                href="/graphic-design"
                 className={
-                  router.pathname == "/Graphic-design"
-                    ? "text-[#012857] font-medium"
+                  router.pathname == "/graphic-design"
+                    ? "text-darkBlue font-medium"
                     : ""
                 }
               >
                 Design
               </Link>
             </li>
-            <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA]">
+            <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA]">
               <Link
-                href="/Website"
+                href="/website"
                 className={
-                  router.pathname == "/Website"
-                    ? "text-[#012857] font-medium"
+                  router.pathname == "/website"
+                    ? "text-darkBlue font-medium"
                     : ""
                 }
               >
                 Website
               </Link>
             </li>
-            <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] ">
+            <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] ">
               <Link
-                href="/About"
+                href="/about"
                 className={
-                  router.pathname == "/About"
-                    ? "text-[#012857] font-medium"
-                    : ""
+                  router.pathname == "/about" ? "text-darkBlue font-medium" : ""
                 }
               >
                 A propos
@@ -54,7 +52,7 @@ const Footer = () => {
           </ul>
 
           <a
-            href="mailto:hello@medjio.fr"
+            href="mailto:hello@medjio.me"
             className="bg-gradient-to-r from-[#012857] via-[#012857] to-[#43BECA] text-white transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
           >
             hello@medjio.me

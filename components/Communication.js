@@ -9,53 +9,59 @@ import magasine from "../public/img/magasine.png";
 const Communication = () => {
   return (
     <div className="bg-[#F9FAFC] border-y-[#E9EAEF] border-2 mt-36">
-      <div className="mx-auto conatiner w-[80%] flex flex-col lg:flex-row items-center justify-center my-28 ">
-        <div className="flex-1 flex flex-col lg:flex-row items-center justify-center">
-          <div className="lg:mr-5">
-            <a href="#">
+      <div className=" mx-auto conatiner lg:w-[80%] flex flex-col-reverse lg:flex-row items-center justify-center lg:my-28 sm:mb-14 ">
+        <div className="relative w-screen max-w-full h-[364px] lg:h-auto overflow-x-auto">
+          <div className="absolute whitespace-nowrap snap-x lg:relative lg:flex-1 flex items-center justify-center ">
+            <div className="hidden lg:flex flex-col items-center lg:mr-5">
               <Image
                 src={dj}
-                className="hover:scale-95 transition-all duration-500 lg:mb-5 "
+                className=" h-[334px] lg:h-[auto] lg:hover:scale-95 transition-all duration-500 lg:mb-5 "
                 alt="flyers"
               />
-            </a>
-            <a href="#">
+
               <Image
                 src={koba}
-                className="hover:scale-95 transition-all duration-500"
+                className="h-[334px] lg:h-[auto] lg:hover:scale-95 transition-all duration-500"
                 alt="flyers"
               />
-            </a>
-          </div>
-          <div>
-            <a href="#">
+            </div>
+            <div className="lg:ml-0 flex lg:flex-col">
+              <Image
+                src={dj}
+                className="lg:hidden h-[334px] lg:h-[auto] lg:hover:scale-95 transition-all duration-500 lg:mb-5 "
+                alt="flyers"
+              />
+
+              <Image
+                src={koba}
+                className="lg:hidden h-[334px] lg:h-[auto] lg:hover:scale-95 transition-all duration-500"
+                alt="flyers"
+              />
               <Image
                 src={dadju}
-                className="hover:scale-95 transition-all duration-500 lg:mb-5"
+                className="h-[334px] lg:h-[auto] lg:hover:scale-95 transition-all duration-500 lg:mb-5"
                 alt="flyers"
               />
-            </a>
-            <a href="#">
+
               <Image
                 src={gwen}
-                className="hover:scale-95 transition-all duration-500 lg:mb-5"
+                className="h-[334px] lg:h-[auto] lg:hover:scale-95 transition-all duration-500 lg:mb-5"
                 alt="flyers"
               />
-            </a>
-            <a href="#">
+
               <Image
                 src={magasine}
-                className="hover:scale-95 transition-all duration-500"
+                className="h-[334px] lg:h-[auto] lg:hover:scale-95 transition-all duration-500"
                 alt="flyers kizz daniel"
               />
-            </a>
+            </div>
           </div>
         </div>
-        <div className="flex-1  mb-10 lg:mb-0 mt-20 lg:text-left lg:mt-0 lg:ml-20 ">
+        <div className=" lg:mb-0 my-28 lg:text-left sm:w-[80%] lg:ml-16 ">
           <p className="text-base tracking-widest text-[#F6BB42] uppercase mb-5">
             Communication visuelle
           </p>
-          <h2 className="text-5xl font-anton text-[#012857] leading-[70px] mb-10">
+          <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
             Tourné vers l'événementiel
           </h2>
           <p className="text-lg text-[#475769]">

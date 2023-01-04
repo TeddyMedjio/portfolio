@@ -14,16 +14,16 @@ export default function Navbar({ children }) {
       <MobileNav open={open} setOpen={setOpen} />
       <div className="absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container  ">
         <a href="/">
-          <Image src={Logo} className="h-auto" alt="logo NJ" />
+          <Image src={Logo} height="auto" alt="logo NJ" />
         </a>
 
         <div className="hidden lg:flex items-center">
           <ul className="flex space-x-12 mr-12">
-            <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA]">
+            <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA]">
               <Link
-                href="/Graphic-design"
+                href="/graphic-design"
                 className={
-                  router.pathname == "/Graphic-design"
+                  router.pathname == "/graphic-design"
                     ? "text-[#43BECA] font-medium"
                     : ""
                 }
@@ -31,11 +31,11 @@ export default function Navbar({ children }) {
                 Design
               </Link>
             </li>
-            <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA]">
+            <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA]">
               <Link
-                href="/Website"
+                href="/website"
                 className={
-                  router.pathname == "/Website"
+                  router.pathname == "/website"
                     ? "text-[#43BECA] font-medium"
                     : ""
                 }
@@ -43,11 +43,11 @@ export default function Navbar({ children }) {
                 Website
               </Link>
             </li>
-            <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] ">
+            <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] ">
               <Link
-                href="/About"
+                href="/about"
                 className={
-                  router.pathname == "/About"
+                  router.pathname == "/about"
                     ? "text-[#43BECA] font-medium"
                     : ""
                 }
@@ -59,7 +59,7 @@ export default function Navbar({ children }) {
 
           <a
             href="mailto:hello@medjio.fr"
-            className="bg-gradient-to-r from-[#012857] via-[#012857] to-[#43BECA] text-white transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
+            className="bg-gradient-to-r from-darkBlue via-darkBlue to-[#43BECA] text-white transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
           >
             hello@medjio.me
           </a>
@@ -75,7 +75,7 @@ export default function Navbar({ children }) {
           >
             {/* hamburger button */}
             <span
-              className={`h-1 w-full bg-[#012857] rounded-lg group-hover:text-red-500 cursor-pointer transform transition duration-300 ease-in-out ${
+              className={`h-1 w-full bg-darkBlue rounded-lg group-hover:text-red-500 cursor-pointer transform transition duration-300 ease-in-out ${
                 open ? "rotate-45 translate-y-3" : ""
               }`}
             />
@@ -85,7 +85,7 @@ export default function Navbar({ children }) {
               }`}
             />
             <span
-              className={`h-1 w-full bg-[#012857] rounded-lg group-hover:text-red-500 cursor-pointer transform transition duration-300 ease-in-out ${
+              className={`h-1 w-full bg-darkBlue rounded-lg group-hover:text-red-500 cursor-pointer transform transition duration-300 ease-in-out ${
                 open ? "-rotate-45 -translate-y-3" : ""
               }`}
             />
@@ -100,41 +100,42 @@ export default function Navbar({ children }) {
 // mobile navigation
 
 function MobileNav({ open, setOpen }) {
+  const router = useRouter();
   return (
     <div
       className={`z-[500] lg:hidden absolute top-36 left-0 h-screen w-full bg-white transform ${
         open ? "-translate-x-0 " : "-translate-x-full"
       } transition-transform duration-700 ease-in-out`}
     >
-      <hr className="border-t-2 border-[#012857]" />
+      <hr className="border-t-2 border-darkBlue" />
       <div className=" flex flex-col items-center justify-center space-y-32 mt-12 mx-auto">
         <ul className=" flex flex-col justify-center space-y-8 w-[100%] text-center ">
-          <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <a href="/Graphic-design">
+          <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
+            <Link href="/graphic-design">
               <span className="text-[#F6BB42]">D</span>esign
-            </a>
+            </Link>
           </li>
 
-          <hr className="border-t-2 border-[#012857] " />
-          <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <a href="/Website">
+          <hr className="border-t-2 border-darkBlue " />
+          <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
+            <Link href="/website">
               <span className="text-[#F6BB42]">W</span>ebsite
-            </a>
+            </Link>
           </li>
 
-          <hr className="border-t-2 border-[#012857]" />
-          <li className="text-[#012857] transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <a href="/About">
+          <hr className="border-t-2 border-darkBlue" />
+          <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
+            <Link href="/about">
               <span className="text-[#F6BB42]">A</span> propos
-            </a>
+            </Link>
           </li>
-          <hr className="border-t-2 border-[#012857]" />
+          <hr className="border-t-2 border-darkBlue" />
         </ul>
       </div>
       <div className=" text-center mt-28">
         <a
-          href="mailto:hello@medjio.fr"
-          className="bg-gradient-to-r from-[#012857] via-[#012857] to-[#43BECA] text-white text-xl transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
+          href="mailto:hello@medjio.me"
+          className="bg-gradient-to-r from-darkBlue via-darkBlue to-[#43BECA] text-white text-xl transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
         >
           Démarrer un projet
         </a>

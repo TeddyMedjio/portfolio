@@ -16,7 +16,7 @@ const Identite = () => {
           <p className="text-base tracking-widest text-[#F6BB42] uppercase mb-5">
             Webdesign
           </p>
-          <h2 className="text-5xl font-anton text-[#012857] leading-[70px] mb-10">
+          <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
             Un site performant et facile à administrer
           </h2>
           <p className="text-lg text-[#475769]">

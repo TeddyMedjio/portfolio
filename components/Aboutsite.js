@@ -6,7 +6,7 @@ const Aboutsite = () => {
   return (
     <div className="mt-28">
       <div className="w-[80%] md:w-[65%] lg:w-[35%] mx-auto">
-        <h2 className="text-5xl font-anton text-[#012857] leading-[70px] mb-10">
+        <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
           Je fais des sites et des designs, et je le fais bien.
         </h2>
         <p className="text-lg text-justify text-[#475769]">
@@ -26,7 +26,7 @@ const Aboutsite = () => {
       <div className="mt-40 transform rotate-3">
         <div className="marquee text-center ">
           <div className="track">
-            <h1 className="text-[#012857] font-anton text-[90px]">
+            <h1 className="text-darkBlue font-anton text-[90px]">
               &nbsp;Webdesign - Graphisme - Stratégie de communication -
               Webdesign - Graphisme - Stratégie de communication - Webdesign -
               Graphisme - Stratégie de communication
@@ -36,7 +36,7 @@ const Aboutsite = () => {
 
         <div className="marquee-two text-center">
           <div className="track-two">
-            <h1 className="text-[#012857] text-line font-anton text-[90px]">
+            <h1 className="text-darkBlue text-line font-anton text-[90px]">
               &nbsp;Show me what you got! - Show me what you got! - Show me what
               you got! - Show me what you got! - Show me what you got! - Show me
               what you got!
@@ -50,22 +50,22 @@ const Aboutsite = () => {
         <p className="text-lg tracking-widest text-[#F6BB42] uppercase ">
           ce que j'aime
         </p>
-        <h2 className="text-5xl font-anton text-[#012857] leading-[70px] mb-10">
+        <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
           3 choses à mon sujet
         </h2>
         <p className="text-lg text-[#475769] text-justify">
-          <span className="text-[#012857] font-bold">1-</span> La majorité de
-          mon temps libre est consacrée à{" "}
+          <span className="text-darkBlue font-bold">1-</span> La majorité de mon
+          temps libre est consacrée à{" "}
           <span className="font-bold">la musique et à la cuisine</span>, une
           activité passionnante qui me permet de développer ma créativité.
         </p>
         <p className="text-lg text-[#475769] text-justify">
-          <span className="text-[#012857] font-bold">2-</span> Je considère
-          cette scène de <span className="font-bold">The Office</span> comme
-          étant la vidéo la plus drôle au monde😂😂.
+          <span className="text-darkBlue font-bold">2-</span> Je considère cette
+          scène de <span className="font-bold">The Office</span> comme étant la
+          vidéo la plus drôle au monde😂😂.
         </p>
         <p className="text-lg text-[#475769] text-justify">
-          <span className="text-[#012857] font-bold">3-</span> J'aime le chiffre
+          <span className="text-darkBlue font-bold">3-</span> J'aime le chiffre
           3 je pense sa à un rapport avec le fait que je sois née le 3e mois.
         </p>
 

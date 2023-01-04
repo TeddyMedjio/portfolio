@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./pages/**/*.js", "./components/**/*.js"],
   theme: {
+    colors: {
+      darkBlue: "#012857",
+      white: "#f8fafc",
+      gray: {
+        900: "#0f172a",
+      },
+    },
     fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
       anton: ["Anton", "sans-serif"],
     },
     screens: {

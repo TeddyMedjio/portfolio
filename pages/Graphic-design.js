@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Communication from "../components/Communication";
 import Designhead from "../components/Designhead";
-import Faq from "../components/Faq";
 import Footer from "../components/Footer";
 import Identite from "../components/Identite";
 import Rendez from "../components/Rendez";
@@ -18,7 +17,6 @@ const Design = () => {
       <Identite />
       <Communication />
       <Temoignage />
-      <Faq />
       <Rendez />
       <Footer />
     </div>

@@ -17,12 +17,12 @@ const Rendez = () => {
             href="https://calendly.com/njeanclaude/30min?month=2022-12"
             target="_blank"
             rel="noopener noreferrer"
-            className="py-4 px-6 hover:px-8 transition-all duration-300 ease bg-white text-[#012857] border-white border-2 rounded-lg"
+            className="py-4 px-6 hover:px-8 transition-all duration-300 ease bg-white text-darkBlue border-white border-2 rounded-lg"
           >
             Réservez une consultation gratuite
           </a>
           <a
-            href="mailto:hello@medjio.fr"
+            href="mailto:hello@medjio.me"
             className="py-4 px-6 hover:px-8 transition-all duration-300 ease text-white border-white border-[1px] rounded-lg"
           >
             Démarrer un projet
