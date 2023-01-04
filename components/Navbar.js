@@ -133,27 +133,27 @@ function MobileNav({ open, setOpen }) {
         </ul>
       </div>
       <div className=" text-center mt-28">
-        <a
+        <Link
           href="mailto:hello@medjio.me"
           className="bg-gradient-to-r from-darkBlue via-darkBlue to-[#43BECA] text-white text-xl transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
         >
           Démarrer un projet
-        </a>
+        </Link>
         <div className="flex flex-row items-center justify-center mt-14 space-x-5">
-          <a
+          <Link
             href="https://www.behance.net/jeanclmedjio"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src={behance} className="w-" alt="logo behance" />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.linkedin.com/in/jean-claude-nganmedjio-603995a1/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src={linkedin} className="w-7" alt="logo linkedin" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
