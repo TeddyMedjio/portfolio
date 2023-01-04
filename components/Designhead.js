@@ -29,8 +29,12 @@ const Designhead = () => {
           <div className="w-[380px]  lg:md:w-[900px] overflow-x-auto mt-10">
             <div className="slider mix-blend-multiply">
               <div className="slide-track">
-                <Image src={logos} className="h-[100px]" />
-                <Image src={logos} className="h-[100px] ml-14" />
+                <Image src={logos} alt="logo company" className="h-[100px]" />
+                <Image
+                  src={logos}
+                  alt="logo company"
+                  className="h-[100px] ml-14"
+                />
 
                 {/* <!-- same 9 slides doubled (duplicate) --> */}
               </div>

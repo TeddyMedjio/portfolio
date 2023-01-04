@@ -13,7 +13,7 @@ export default function Navbar({ children }) {
     <nav className="bg-[#F9FAFC] z-[500] ">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container  ">
-        <Link href="/">
+        <Link href="/" className={router.pathname == "/graphic-design"}>
           <Image src={Logo} height="auto" alt="logo NJ" />
         </Link>
 
@@ -111,21 +111,24 @@ function MobileNav({ open, setOpen }) {
       <div className=" flex flex-col items-center justify-center space-y-32 mt-12 mx-auto">
         <ul className=" flex flex-col justify-center space-y-8 w-[100%] text-center ">
           <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link href="/graphic-design">
+            <Link
+              href="/graphic-design"
+              className={router.pathname == "/graphic-design"}
+            >
               <span className="text-[#F6BB42]">D</span>esign
             </Link>
           </li>
 
           <hr className="border-t-2 border-darkBlue " />
           <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link href="/website">
+            <Link href="/website" className={router.pathname == "/website"}>
               <span className="text-[#F6BB42]">W</span>ebsite
             </Link>
           </li>
 
           <hr className="border-t-2 border-darkBlue" />
           <li className="text-darkBlue transition-all duration-300 ease hover:text-[#43BECA] text-5xl font-bold">
-            <Link href="/about">
+            <Link href="/about" className={router.pathname == "/about"}>
               <span className="text-[#F6BB42]">A</span> propos
             </Link>
           </li>
