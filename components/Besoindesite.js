@@ -3,7 +3,7 @@ import React from "react";
 const Besoindesite = () => {
   return (
     <div className="mt-28 lg:mt-72">
-      <div className="w-10/12  lg:w-[60%] lg:max-w-[500px] container mx-auto  ">
+      <div className="w-10/12  lg:w-[60%] lg:max-w-[600px] container mx-auto  ">
         <h2 className="text-5xl font-anton text-darkBlue leading-[70px] mb-10">
           Vous avez besoin d’un site performant.
         </h2>

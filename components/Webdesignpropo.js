@@ -3,7 +3,7 @@ import React from "react";
 const Identite = () => {
   return (
     <div>
-      <div className="mx-auto conatiner w-[80%] flex flex-col-reverse lg:flex-row lg:items-center lg:justify-center my-20">
+      <div className="mx-auto conatiner w-[80%] max-w-[1200px] flex flex-col-reverse lg:flex-row lg:items-center lg:justify-center my-20">
         <video
           autoPlay
           loop

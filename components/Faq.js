@@ -3,7 +3,7 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 
 export default function Faq() {
   return (
-    <div className="mx-auto w-[80%] my-28">
+    <div className="mx-auto w-[80%] max-w-[1200px] my-28">
       <div className="">
         <Disclosure>
           {({ open }) => (

@@ -4,7 +4,7 @@ const Playlist = () => {
   return (
     <div className="bg-hero-musique bg-cover bg-no-repeat bg-center py-[127px]">
       {" "}
-      <div className="space-y-10 flex flex-col justify-center items-center container mx-auto w-[80%] md:w-[60%] text-center">
+      <div className="space-y-10 flex flex-col justify-center items-center container mx-auto w-[80%] md:w-[50%] text-center">
         <p className="text-base tracking-widest text-yellow uppercase ">
           playlist
         </p>

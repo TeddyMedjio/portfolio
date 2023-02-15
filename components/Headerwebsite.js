@@ -6,7 +6,7 @@ const Designhead = () => {
   return (
     <div className="bg-hero-color bg-cover bg-no-repeat pb-28 h-screen">
       <div className="w-[80%] mx-auto ">
-        <div className="flex flex-col items-center justify-center pt-[150px] md:pt-[200px]">
+        <div className="flex flex-col items-center justify-center pt-[150px] md:pt-[15%]">
           <p className="text-base tracking-widest text-yellow uppercase text-center">
             expert Webdesigner & front-end dev
           </p>

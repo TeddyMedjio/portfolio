@@ -3,7 +3,7 @@ import DemoCarousel from "./DemoCarousel";
 
 const Temoignage = () => {
   return (
-    <div className="my-20 m mx-auto conatiner w-10/12 md:w-[90%] lg:w-[75%] flex flex-col lg:flex-row items-center justify-between lg:my-28">
+    <div className="my-20 m mx-auto conatiner w-10/12 md:w-[90%] lg:max-w-[55%] flex flex-col lg:flex-row items-center justify-between lg:my-28">
       <div className=" lg:w-[55%] max-w-[648px] mb-10 lg:mb-0 ">
         <p className="text-base tracking-widest text-yellow uppercase mb-5">
           Ils/elles en parlent le mieux
