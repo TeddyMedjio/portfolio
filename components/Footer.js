@@ -52,7 +52,7 @@ const Footer = () => {
           </ul>
 
           <a
-            href="mailto:hello@medjio.me"
+            href="mailto:teddygraphiste@gmail.com"
             className="bg-gradient-to-r from-darkBlue via-darkBlue to-lightBlue text-white transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
           >
             hello@medjio.me
