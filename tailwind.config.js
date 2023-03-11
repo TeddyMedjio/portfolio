@@ -1,8 +1,18 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.js", "./components/**/*.js"],
+  content: ["./pages/**/*{.js,.jsx}", "./components/**/*{.js,.jsx}"],
   theme: {
     colors: {
+      brand: {
+        'dark-blue': "#012857",
+        'light-blue': "#43BECA",
+        'blue-gray': "#475769",
+        yellow: "#F6BB42",
+        white: "#f8fafc",
+      },
       darkBlue: "#012857",
       lightBlue: "#43BECA",
       bluegray: "#475769",
@@ -10,18 +20,13 @@ module.exports = {
       yellow: "#F6BB42",
       white: "#f8fafc",
       gray: {
+        ...colors.slate,
         900: "#0f172a",
       },
     },
     fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
+      poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
       anton: ["Anton", "sans-serif"],
-    },
-    screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
     },
     extend: {
       backgroundImage: {
@@ -30,6 +35,12 @@ module.exports = {
         "hero-rendez": "url('../public/img/backgroung-two.png')",
         "hero-color": "url('../public/img/bgcolor.png')",
       },
+      borderRadius: {
+        ssm: "4px",
+      },
+      zIndex: {
+        100: "100",
+      }
     },
     plugins: [],
   },

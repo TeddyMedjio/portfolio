@@ -1,25 +1,25 @@
-import Logo from "../public/img/Logo.svg";
-import behance from "../public/img/behance.svg";
-import linkedin from "../public/img/linkedin.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
+import Logo from "../public/img/Logo.svg";
+import behance from "../public/img/behance.svg";
+import linkedin from "../public/img/linkedin.svg";
 
 export default function Navbar({ children }) {
   const [open, setOpen] = useState(false);
   const router = useRouter();
   return (
-    <nav className="bg-[#F9FAFC] z-[500] ">
+    <nav className="bg-brand-white z-[500] ">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="absolute left-0 right-0 pt-10 flex items-center justify-between w-[80%] mx-auto container">
         <Link href="/">
           <Image src={Logo} height="auto" alt="logo NJ" />
         </Link>
 
-        <div className="hidden lg:flex items-center">
-          <ul className="flex space-x-12 mr-12">
-            <li className="text-darkBlue transition-all duration-300 ease hover:text-lightBlue">
+        <div className="items-center hidden lg:flex">
+          <ul className="flex mr-12 space-x-12">
+            <li className="transition-all duration-300 text-darkBlue ease hover:text-lightBlue">
               <Link
                 href="/design"
                 className={
@@ -31,7 +31,7 @@ export default function Navbar({ children }) {
                 Design
               </Link>
             </li>
-            <li className="text-darkBlue transition-all duration-300 ease hover:text-lightBlue">
+            <li className="transition-all duration-300 text-darkBlue ease hover:text-lightBlue">
               <Link
                 href="/web-site"
                 className={
@@ -43,7 +43,7 @@ export default function Navbar({ children }) {
                 Website
               </Link>
             </li>
-            <li className="text-darkBlue transition-all duration-300 ease hover:text-lightBlue ">
+            <li className="transition-all duration-300 text-darkBlue ease hover:text-lightBlue ">
               <Link
                 href="/a-propos"
                 className={
@@ -58,7 +58,7 @@ export default function Navbar({ children }) {
           </ul>
 
           <a
-            href="mailto:teddygraphiste@gmail.com"
+            href="mailto:hello@medjio.me"
             className="bg-gradient-to-r from-darkBlue via-darkBlue to-lightBlue text-white transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
           >
             hello@medjio.me
@@ -66,9 +66,9 @@ export default function Navbar({ children }) {
         </div>
 
         {/* mobile menu */}
-        <div className=" lg:hidden w-full flex justify-end items-center ">
+        <div className="flex items-center justify-end w-full  lg:hidden">
           <div
-            className="group w-7 h-7 cursor-pointer flex-col justify-between items-center flex"
+            className="flex flex-col items-center justify-between cursor-pointer group w-7 h-7"
             onClick={() => {
               setOpen(!open);
             }}
@@ -111,23 +111,23 @@ function MobileNav({ open, setOpen }) {
       }}
     >
       <hr className="border-t-2 border-darkBlue" />
-      <div className=" flex flex-col items-center justify-center space-y-32 mt-12 mx-auto">
+      <div className="flex flex-col items-center justify-center mx-auto mt-12 space-y-32 ">
         <ul className=" flex flex-col justify-center space-y-8 w-[100%] text-center ">
-          <li className="text-darkBlue transition-all duration-300 ease hover:text-lightBlue text-5xl font-bold">
+          <li className="text-5xl font-bold transition-all duration-300 text-darkBlue ease hover:text-lightBlue">
             <Link href="/design">
               <span className="text-yellow">D</span>esign
             </Link>
           </li>
 
           <hr className="border-t-2 border-darkBlue " />
-          <li className="text-darkBlue transition-all duration-300 ease hover:text-lightBlue text-5xl font-bold">
+          <li className="text-5xl font-bold transition-all duration-300 text-darkBlue ease hover:text-lightBlue">
             <Link href="/web-site">
               <span className="text-yellow">W</span>ebsite
             </Link>
           </li>
 
           <hr className="border-t-2 border-darkBlue" />
-          <li className="text-darkBlue transition-all duration-300 ease hover:text-lightBlue text-5xl font-bold">
+          <li className="text-5xl font-bold transition-all duration-300 text-darkBlue ease hover:text-lightBlue">
             <Link href="/a-propos">
               <span className="text-yellow">A</span> propos
             </Link>
@@ -135,14 +135,14 @@ function MobileNav({ open, setOpen }) {
           <hr className="border-t-2 border-darkBlue" />
         </ul>
       </div>
-      <div className=" text-center mt-28">
+      <div className="text-center  mt-28">
         <Link
           href="mailto:hello@medjio.me"
           className="bg-gradient-to-r from-darkBlue via-darkBlue to-lightBlue text-white text-xl transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
         >
           Démarrer un projet
         </Link>
-        <div className="flex flex-row items-center justify-center mt-14 space-x-5">
+        <div className="flex flex-row items-center justify-center space-x-5 mt-14">
           <Link
             href="https://www.behance.net/jeanclmedjio"
             target="_blank"
