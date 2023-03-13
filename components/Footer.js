@@ -1,8 +1,7 @@
-import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import Logo from "../public/img/logobleu.svg";
 import { useRouter } from "next/router";
+import Image from "next/image";
+import Logo from "../public/img/logobleu.svg";
 
 const Footer = () => {
   const router = useRouter();
@@ -19,7 +18,7 @@ const Footer = () => {
               <Link
                 href="/design"
                 className={
-                  router.pathname == "/design"
+                  router.pathname === "/design"
                     ? "text-darkBlue font-medium"
                     : ""
                 }
@@ -31,7 +30,7 @@ const Footer = () => {
               <Link
                 href="/web-site"
                 className={
-                  router.pathname == "/web-site"
+                  router.pathname === "/web-site"
                     ? "text-darkBlue font-medium"
                     : ""
                 }
@@ -43,7 +42,9 @@ const Footer = () => {
               <Link
                 href="/a-propos"
                 className={
-                  router.pathname == "/about" ? "text-darkBlue font-medium" : ""
+                  router.pathname === "/about"
+                    ? "text-darkBlue font-medium"
+                    : ""
                 }
               >
                 A propos
@@ -52,7 +53,7 @@ const Footer = () => {
           </ul>
 
           <a
-            href="mailto:teddygraphiste@gmail.com"
+            href="mailto:hello@medjio.me"
             className="bg-gradient-to-r from-darkBlue via-darkBlue to-lightBlue text-white transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
           >
             hello@medjio.me

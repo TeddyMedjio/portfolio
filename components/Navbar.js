@@ -1,10 +1,10 @@
+import Link from "next/link";
+import { useRouter } from "next/router";
+import React, { useState } from "react";
 import Logo from "../public/img/Logo.svg";
 import behance from "../public/img/behance.svg";
 import linkedin from "../public/img/linkedin.svg";
 import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import React, { useState } from "react";
 
 export default function Navbar({ children }) {
   const [open, setOpen] = useState(false);
@@ -23,7 +23,7 @@ export default function Navbar({ children }) {
               <Link
                 href="/design"
                 className={
-                  router.pathname == "/design"
+                  router.pathname === "/design"
                     ? "text-lightBlue font-medium"
                     : ""
                 }
@@ -35,7 +35,7 @@ export default function Navbar({ children }) {
               <Link
                 href="/web-site"
                 className={
-                  router.pathname == "/web-site"
+                  router.pathname === "/web-site"
                     ? "text-lightBlue font-medium"
                     : ""
                 }
@@ -47,7 +47,7 @@ export default function Navbar({ children }) {
               <Link
                 href="/a-propos"
                 className={
-                  router.pathname == "/a-propos"
+                  router.pathname === "/a-propos"
                     ? "text-lightBlue font-medium"
                     : ""
                 }
@@ -58,7 +58,7 @@ export default function Navbar({ children }) {
           </ul>
 
           <a
-            href="mailto:teddygraphiste@gmail.com"
+            href="mailto:hello@medjio.me"
             className="bg-gradient-to-r from-darkBlue via-darkBlue to-lightBlue text-white transition-all duration-300 ease hover:px-7 hover:shadow-xl px-5 py-3 rounded-[4px]"
           >
             hello@medjio.me

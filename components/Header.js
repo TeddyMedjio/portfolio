@@ -54,14 +54,13 @@ const Header = () => {
           <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-10 mt-52 md:mt-40 lg:mt-14">
             <Link
               href="/design"
-              className={`router.pathname == "/design" ? "font-bold" : "" p-4 bg-darkBlue border-[1px] border-darkBlue text-white rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl `}
+              className={`${router.pathname} == "/design" ? "font-bold" : "" p-4 bg-darkBlue border-[1px] border-darkBlue text-white rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl `}
             >
               Vous avez besoin {"d'un"} designer
             </Link>
             <Link
               href="/web-site"
-              className={`router.pathname == "/web-site" ? "font-bold" : "" bg-white p-4 border-darkBlue border-[1px] rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl`}
-              $
+              className={`${router.pathname} == "/web-site" ? "font-bold" : "" bg-white p-4 border-darkBlue border-[1px] rounded-[4px] text-sm hover:scale-105 transition-all duration-300 ease hover:shadow-xl`}
             >
               Vous avez besoin {"d'un"} front-end dev
             </Link>
