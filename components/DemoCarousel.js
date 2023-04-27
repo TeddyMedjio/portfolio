@@ -43,7 +43,7 @@ export default function App() {
 
         <SwiperSlide>
           {" "}
-          <div className="absolute h-38 pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-800">
+          <div className="absolute pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-900">
             <p className="text-sm font-normal">
               La créativité de Jean Claude n’a pas de limites : malgré nos
               contraintes et exigences, il réussit toujours à s’adapter pour
@@ -59,7 +59,7 @@ export default function App() {
 
         <SwiperSlide>
           {" "}
-          <div className="absolute h-38 pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-800">
+          <div className="absolute pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-900">
             <p className="text-sm font-normal">
               Travail excellent, créatif et réactif. Impossible d'imaginer
               développer mes projets de création sans lui.
@@ -73,7 +73,7 @@ export default function App() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="absolute h-38 pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-800">
+          <div className="absolute pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-900">
             <p className="text-sm font-normal">
               Extensive aesthetics, crazy kindness and crazy production speed: I
               highly recommend N. Jean Claude!
@@ -88,7 +88,7 @@ export default function App() {
 
         <SwiperSlide>
           {" "}
-          <div className="absolute h-38 pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-800">
+          <div className="absolute pt-28 p-5 bottom-0 bg-gradient-to-t from-gray-900">
             <p className="text-sm font-normal">
               JC a su nous accompagner dans la réflexion et l'idéation en amont
               et ces propositions/réalisations sont toujours pertinentes et

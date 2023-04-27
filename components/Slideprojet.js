@@ -4,7 +4,7 @@ import Image from "next/image";
 import bange from "../public/img/bange_acceuil.jpg";
 import newspaper from "../public/img/newspaper_acceuil.jpg";
 import balook from "../public/img/balook_acceuil.jpg";
-import challenge from "../public/img/challenge_acceuil.jpg";
+import notaire from "../public/img/notaire.jpg";
 import petrolex from "../public/img/petrolex_acceuil.jpg";
 import intersystem from "../public/img/intersysterm_acceuil.jpg";
 
@@ -51,6 +51,18 @@ export default function App() {
         <SwiperSlide>
           {" "}
           <a
+            href="https://notary-virid.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="h-full"
+          >
+            <Image src={notaire} className="h-full rounded-2xl" />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          {" "}
+          <a
             href="https://baalook.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
@@ -59,17 +71,7 @@ export default function App() {
             <Image src={balook} className="h-full rounded-2xl" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <a
-            href="https://challenge-international.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="h-full"
-          >
-            <Image src={challenge} className="h-full rounded-2xl" />
-          </a>
-        </SwiperSlide>
+
         <SwiperSlide>
           <Image src={petrolex} className="h-full rounded-2xl" />
         </SwiperSlide>
