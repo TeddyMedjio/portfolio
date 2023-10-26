@@ -13,7 +13,7 @@ const Website = () => {
     <div>
       <Head>
         <title>Website</title>
-        <meta name="keywords" content="Website" />
+        <meta name="Website" content="Website" />
       </Head>
       <Headerwesite />
       <Webdesign />
